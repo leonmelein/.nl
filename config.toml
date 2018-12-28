@@ -1,0 +1,37 @@
+baseURL = "https://www.leonmelein.nl/"
+languageCode = "nl-nl"
+title = "Léon"
+theme = "lmnl"
+summaryLength = 40
+copyright = "Léon © 1994 - {year}"
+[menu]
+  	[[menu.main]]
+  	identifier = "home"
+	name = "Home"
+	title = "Home"
+	url = "/"
+	weight = -500
+	[[menu.main]]
+  	identifier = "blog"
+	name = "Blog"
+	title = "Blog"
+	url = "/blog/"
+	weight = -400
+	[[menu.main]]
+  	identifier = "portfolio"
+	name = "Portfolio"
+	title = "Portfolio"
+	url = "/portfolio/"
+	weight = -300
+	[[menu.main]]
+  	identifier = "project"
+	name = "Projecten"
+	title = "Projecten"
+	url = "/projects/"
+	weight = -200
+	[[menu.main]]
+  	identifier = "contact"
+	name = "Contact"
+	title = "Contact"
+	url = "/contact/"
+	weight = -100

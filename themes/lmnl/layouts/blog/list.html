@@ -1,0 +1,24 @@
+{{ partial "head.html" .}}
+<div class="container page">
+	<div class="row">
+		<div class="col-md-8 offset-md-2">
+			<h2>Blog</h2><br/>
+		</div>
+	</div>
+  <div class="row">
+  	  <div class="col-md-2"></div>
+	  <div class="col-md-8 card-deck">
+      {{ range (where .Data.Pages "Section" "blog") }}
+      <div class="card">
+		    <img class="card-img-top" src='{{ index .Params "featured_image"  | relURL }}' alt="Card image cap">
+		    <div class="card-body">
+		      <h5 class="card-title"><a href="{{.Permalink}}">{{.Title}}</a></h5>
+		      <p class="card-text">{{.Summary}}</p>
+		      <p class="card-text"><small class="text-muted">{{.Date.Format "2 January 2006"}}</small></p>
+		   </div>
+		  </div>
+      {{end}}
+    </div>
+  </div>
+</div>
+{{ partial "footer.html" .}}

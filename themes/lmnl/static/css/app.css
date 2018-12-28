@@ -1,0 +1,73 @@
+body {
+	font-family: "Lato", sans-serif;
+}
+
+h1, h2 {
+	font-weight: 600 !important;
+}
+
+h1.display-4 {
+	font-size: 4em !important;
+}
+
+p.lead {
+	font-weight: 300 !important;
+	font-size: 2em !important;
+}
+
+.leadin {
+	margin-top: 0.5em;
+	font-size: 1.3em;
+	font-weight: 200;
+}
+
+.jumbotron-welcome {
+	padding-top: 8rem;
+}
+
+.jumbotron-about {
+	margin-bottom: 0 !important;
+}
+
+.bg-blue {
+	background-color: #4A90E2;
+	color: #fff;
+}
+
+.card-deck {
+	margin-bottom: 1em;
+}
+
+.footer {
+	padding: 1em;
+	text-align: center;
+	font-weight: 400;
+}
+
+.page {
+	margin-top: 1.5em;
+}
+
+/* Blog Articles */
+header {
+	margin-bottom: 1.5em;
+}
+
+header > time {
+	padding-top: 1em;
+}
+
+blockquote {
+	background-color: #fafafa;
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-top: 1em;
+	padding-bottom: 0.5em;
+}
+
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .jumbotron-welcome {
+    padding-top: 4em;
+  }
+}

@@ -1,0 +1,15 @@
+{{ partial "head.html" .}}
+<div class="container page">
+	<div class="row">
+		<article>
+			<div class="col-md-8 offset-md-2">
+				<header>
+					<h1>{{ .Title }}</h1>
+					<time>{{.Date.Format "2 January 2006"}}</time>
+				</header>	
+				{{ .Content }}
+			</div>
+		</article>
+	</div>
+</div>
+{{ partial "footer.html" .}}
