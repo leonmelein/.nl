@@ -1,8 +1,16 @@
 ---
 title: "Drie Keer Is Scheepsrecht"
-date: 2018-12-07T21:42:00+01:00
+date: 2017-03-01T12:00:00+01:00
 featured_image: img/overview-800x500.jpg
 draft: false
+categories: 
+    - Politiek
+tags:
+    - Lijst Calimero
+    - Medezeggenschap
+    - Rijksuniversiteit Groningen
+    - RUG
+parent: '/blog/'
 ---
 
 Sinds vorige week mag ik het hardop zeggen: komende universiteitsraadverkiezingen ben ik weer kandidaat voor Lijst​ Calimero!

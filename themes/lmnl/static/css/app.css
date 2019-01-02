@@ -1,5 +1,9 @@
 body {
-	font-family: "Lato", sans-serif;
+	font-family: "Source Sans Pro", sans-serif;
+}
+
+.navbar-brand {
+	font-weight: 600;
 }
 
 h1, h2 {
@@ -22,7 +26,7 @@ p.lead {
 }
 
 .jumbotron-welcome {
-	padding-top: 8rem;
+	padding-top: 5rem;
 }
 
 .jumbotron-about {
@@ -41,11 +45,42 @@ p.lead {
 .footer {
 	padding: 1em;
 	text-align: center;
-	font-weight: 400;
+	font-weight: 300;
 }
 
 .page {
 	margin-top: 1.5em;
+}
+
+.aboutme {
+	background-image: url('/img/me.png');
+	background-size: contain;
+	background-position: center;
+	
+	background-repeat: no-repeat;
+}
+
+
+.nav-header {
+	font-weight: bold;
+	color: #000000 !important;
+}
+
+.project-select {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+.card-body > h5 {
+	margin-bottom: 0;
+}
+
+.card-body > .summary {
+	margin-top: 1em;
+}
+
+.projects {
+	column-count: 2 !important;
 }
 
 /* Blog Articles */

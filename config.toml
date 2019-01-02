@@ -1,5 +1,6 @@
-baseURL = "https://www.leonmelein.nl/"
+baseURL = "https://beta.leonmelein.nl/"
 languageCode = "nl-nl"
+DefaultContentLanguage = "nl"
 title = "Léon"
 theme = "lmnl"
 summaryLength = 40
@@ -13,16 +14,10 @@ copyright = "Léon © 1994 - {year}"
 	weight = -500
 	[[menu.main]]
   	identifier = "blog"
-	name = "Blog"
+	name = "Nieuws"
 	title = "Blog"
 	url = "/blog/"
 	weight = -400
-	[[menu.main]]
-  	identifier = "portfolio"
-	name = "Portfolio"
-	title = "Portfolio"
-	url = "/portfolio/"
-	weight = -300
 	[[menu.main]]
   	identifier = "project"
 	name = "Projecten"
@@ -30,8 +25,24 @@ copyright = "Léon © 1994 - {year}"
 	url = "/projects/"
 	weight = -200
 	[[menu.main]]
+  	identifier = "about"
+	name = "Over"
+	title = "Over"
+	url = "/about/"
+	weight = -100
+	[[menu.main]]
   	identifier = "contact"
 	name = "Contact"
 	title = "Contact"
 	url = "/contact/"
-	weight = -100
+	weight = 0
+[taxonomies]
+	# Blog posts
+	category = "categories"
+  	tag = "tags"
+
+  	# Portfolio
+  	product = "products"
+  	organization = "organizations"
+  	state = "states"
+  	partner = "partners"

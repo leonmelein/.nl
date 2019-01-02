@@ -1,0 +1,71 @@
+{{ partial "head.html" .}}
+<div class="container page">
+	<div class="row">
+		<div class="col-md-8 offset-md-2">
+			<h1>Projecten</h1>
+		</div>
+	</div>
+
+	<div class="row project-select">
+		{{ $currentPage := . }}
+		{{ $type := .Params.product }}
+		<div class="col-md-8 offset-md-2">
+			<ul class="nav nav-pills">
+			  <li class="nav-item">
+			    <a class="nav-link {{ if eq $currentPage.URL "/projects/" }}active{{ end }}" href="/projects/">Alle</a>
+			  </li>
+			  <li class="nav-item">
+			    <a class="nav-link {{ if eq $currentPage.URL "/projects/design/" }}active{{ end }}" href="/projects/print/">Design</a>
+			  </li>
+			  <li class="nav-item">
+			    <a class="nav-link {{ if eq $currentPage.URL "/projects/print/" }}active{{ end }}" href="/projects/print/">Drukwerk</a>
+			  </li>
+			  <li class="nav-item">
+			    <a class="nav-link {{ if eq $currentPage.URL "/projects/mobile/" }}active{{ end }}" href="/projects/mobile/">Mobiel</a>
+			  </li>
+			  <li class="nav-item">
+			    <a class="nav-link {{ if eq $currentPage.URL "/projects/social/" }}active{{ end }}" href="/projects/social/">Sociaal</a>
+			  </li>
+			  <li class="nav-item">
+			    <a class="nav-link {{ if eq $currentPage.URL "/projects/web/" }}active{{ end }}" href="/projects/web/">Web</a>
+			  </li>
+			</ul>			
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-8 offset-md-2 card-columns projects">
+		  {{ range (where .Site.Pages "Section" "project") }}
+		  {{ if in .Params.product $type}}
+		  		<div class="card">
+			    	<img class="card-img-top" src='{{ index .Params "featured_image"  | relURL }}' alt="Card image cap">
+			    	<div class="card-body">
+			      		<h5 class="card-title"><a href="{{.Permalink}}">{{.Title}}</a></h5>
+			      		{{ if isset .Params "organization" }}
+			      			{{ if lt (len .Params.organization) 10 }}
+			      			<p class="text-small text-muted org">
+			      				{{ range $name := .Params.organization }}
+							    	{{ $name }}<br/>
+			      				{{ end }}
+			      			</p>
+			      			{{ else }}
+			      			<p class="text-small text-muted org">{{.Params.organization}}</p>
+							{{ end }}
+
+						{{ end }}
+			      		<p class="card-text summary">{{.Summary}}</p>
+			      		<p class="card-text"><small class="text-muted">{{.Date.Format "2 January 2006"}}</small><br/>
+			      			{{ if eq .Params.state "Actief" }}
+							    <span class="badge badge-success">{{.Params.state}}</span>
+							{{ else }}
+								<span class="badge badge-light">{{.Params.state}}</span>
+							{{ end }}
+			      		</p>
+			   		</div>
+				</div>
+				{{end}}
+			{{end}}
+		</div>
+	</div>
+</div>
+{{ partial "footer.html" .}}
