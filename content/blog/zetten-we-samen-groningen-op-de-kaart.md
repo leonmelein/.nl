@@ -1,7 +1,7 @@
 ---
 title: "Beste Jan, zetten we samen Groningen op de kaart?"
 date: 2019-02-20T21:28:01+01:00
-draft: false
+draft: true
 featured_image: img/beste-jan-800x500.jpg
 categories: 
     - Politiek

@@ -699,14 +699,18 @@
 	"expanded_folders":
 	[
 		"/Users/leon/Workspace/leonmelein.nl",
-		"/Users/leon/Workspace/leonmelein.nl/content",
-		"/Users/leon/Workspace/leonmelein.nl/content/blog",
-		"/Users/leon/Workspace/leonmelein.nl/themes",
-		"/Users/leon/Workspace/leonmelein.nl/themes/lmnl",
-		"/Users/leon/Workspace/leonmelein.nl/themes/lmnl/layouts"
+		"/Users/leon/Workspace/leonmelein.nl/public",
+		"/Users/leon/Workspace/leonmelein.nl/static",
+		"/Users/leon/Workspace/leonmelein.nl/static/docs"
 	],
 	"file_history":
 	[
+		"/private/var/folders/00/md8cykr96kvfqtg8j7r4rzhm0000gn/T/fz3temp-2/.htaccess",
+		"/Users/leon/Workspace/leonmelein.nl/static/.htaccess",
+		"/Users/leon/.zshrc",
+		"/Users/leon/Workspace/leonmelein.nl/config.toml",
+		"/private/var/folders/00/md8cykr96kvfqtg8j7r4rzhm0000gn/T/fz3temp-2/robots.txt",
+		"/private/var/folders/00/md8cykr96kvfqtg8j7r4rzhm0000gn/T/fz3temp-2/index.php",
 		"/Users/leon/Desktop/Thesis/press_examples/aalberts-20111031",
 		"/Users/leon/Desktop/Thesis/press_examples/kpn-20171020",
 		"/Users/leon/Desktop/Thesis/press_examples/akzonobel-20170719",
@@ -723,7 +727,6 @@
 		"/Users/leon/Workspace/leonmelein.nl/themes/lmnl/static/.htaccess",
 		"/Users/leon/Workspace/leonmelein.nl/themes/lmnl/layouts/404.html",
 		"/Users/leon/Workspace/leonmelein.nl/content/project/myrug.md",
-		"/Users/leon/.zshrc",
 		"/Users/leon/Workspace/leonmelein.nl/content/about.md",
 		"/Users/leon/Desktop/deploy.py",
 		"/Users/leon/Downloads/Biblio-Bibtex.bib",
@@ -745,7 +748,6 @@
 		"/Users/leon/Workspace/leonmelein.nl/content/project/ascialarm.md",
 		"/Users/leon/Workspace/leonmelein.nl/content/project/quicktick.md",
 		"/Users/leon/Workspace/leonmelein.nl/content/projects/print.md",
-		"/Users/leon/Workspace/leonmelein.nl/config.toml",
 		"/Users/leon/Workspace/leonmelein.nl/archetypes/post.md",
 		"/Users/leon/Workspace/leonmelein.nl/archetypes/project.md",
 		"/Users/leon/Workspace/leonmelein.nl/themes/lmnl/layouts/project/single.html",
@@ -767,7 +769,6 @@
 		"/Users/leon/Workspace/leonmelein.nl/content/projects/index.md",
 		"/Users/leon/Workspace/yantai/index.html",
 		"/Users/leon/Workspace/leonmelein.nl/static/manifest.json",
-		"/private/var/folders/00/md8cykr96kvfqtg8j7r4rzhm0000gn/T/fz3temp-2/robots.txt",
 		"/private/var/folders/00/md8cykr96kvfqtg8j7r4rzhm0000gn/T/fz3temp-2/app.css",
 		"/Users/leon/Workspace/leonmelein.nl/themes/lmnl/layouts/partials/footer.html",
 		"/private/var/folders/00/md8cykr96kvfqtg8j7r4rzhm0000gn/T/fz3temp-2/app 2.css",
@@ -831,10 +832,7 @@
 		"/Users/leon/Desktop/martinitoren_white.svg",
 		"/Users/leon/Desktop/Export_group_Chats_Embrace.csv",
 		"/Users/leon/Workspace/asci/asci_stickers/Android/app/src/main/assets/contents.json",
-		"/Users/leon/Workspace/asci/asci_stickers/iOS/WAStickersThirdParty/sticker_packs.wasticker",
-		"/Users/leon/likes.pl",
-		"/Volumes/Werk/consti.sql",
-		"/Users/leon/Workspace/old/lv/lv_opkomst/index.html"
+		"/Users/leon/Workspace/asci/asci_stickers/iOS/WAStickersThirdParty/sticker_packs.wasticker"
 	],
 	"find":
 	{

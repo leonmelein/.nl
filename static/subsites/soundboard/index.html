@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="nl">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="manifest" href="manifest.json">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="msapplication-starturl" content="/">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title>Soundboard</title>
+
+        <!-- Bootstrap -->
+        <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/app.css" rel="stylesheet">
+        <link rel="icon" type="image/png" href="favicon.png">
+    </head>
+    <body>
+        <nav class="navbar navbar-default navbar-static-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Soundboard</a>
+                </div>
+            </div>
+        </nav>
+
+        <div class="jumbotron">
+            <div class="container">
+                <div class="btn-group playback">
+                    <button type="button" class="btn btn-default btn-lg btn-large control" id="play"><span id="isPlaying" class="glyphicon glyphicon-play"></span></button>
+                    <button type="button" class="btn btn-static btn-lg btn-large track" id="track">Bel</button>
+                </div>
+                <audio id="player" src="audio/bel.mp3"></audio>
+            </div>
+        </div>
+
+        <div class="container page">
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="sounds" class="btn-group-vertical btn-group-lg" role="group" aria-label="sounds">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="js/app.js"></script>
+    </body>
+</html>
