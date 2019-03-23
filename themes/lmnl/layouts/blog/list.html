@@ -10,7 +10,9 @@
 	  <div class="col-md-8 card-deck">
       {{ range (where .Data.Pages "Section" "blog") }}
       <div class="card">
-		    <img class="card-img-top" src='{{ index .Params "featured_image"  | relURL }}' alt="Card image cap">
+		    <a href="{{.Permalink}}">
+		    	<img class="card-img-top" src='{{ index .Params "featured_image"  | relURL }}' alt="Card image cap">
+		    </a>
 		    <div class="card-body">
 		      <h5 class="card-title"><a href="{{.Permalink}}">{{.Title}}</a></h5>
 		      <p class="card-text">{{.Summary}}</p>

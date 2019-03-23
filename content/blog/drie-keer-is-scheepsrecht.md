@@ -17,7 +17,7 @@ Sinds vorige week mag ik het hardop zeggen: komende universiteitsraadverkiezinge
 
 Het worden voor mij de derde verkiezingen op rij binnen de universiteit, na in 2015 verkozen te worden als lid van de faculteitsraad namens Letteren Vooruit en in 2016 ook kandidaat te zijn geweest voor de universiteitsraad bij Lijst Calimero. Het is dan ook toepasselijk dat ik dit jaar de nummer 3 ben op de lijst. 😊
 
-![13e kandidaatsfractie van Lijst Calimero](/img/overview.jpg)
+{{<img>}}/img/overview.jpg{{</img>}}
 _De 13e kandidaatsfractie van Lijst Calimero_
 
 Waarom doe ik nóg een keer mee? Dat heb ik mezelf ook afgevraagd. Met het onlangs binnenhalen van mijn bachelor ligt het veel meer voor de hand dat ik gewoon doorga met mijn master.

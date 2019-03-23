@@ -22,10 +22,12 @@
 	  			<div class="card-deck">
 	      	{{ range first 3 (where .Data.Pages "Section" "blog") }}
 	      		<div class="card">
-				    <img class="card-img-top" src="{{ index .Params "featured_image" }}" alt="Card image cap">
+				    <a href="{{.Permalink}}">
+			    		<img class="card-img-top" src='{{ index .Params "featured_image"  | relURL }}' alt="Card image cap">
+			    	</a>
 				    <div class="card-body">
 				      <h5 class="card-title"><a href="{{.Permalink}}">{{.Title}}</a></h5>
-				      <p class="card-text">{{.Summary}}</p>
+				      <p class="card-text">{{.Summary}} (&hellip;)</p>
 				      <p class="card-text"><small class="text-muted">{{.Date.Format "2 January 2006"}}</small></p>
 				    </div>
 				 </div>
@@ -44,8 +46,8 @@
 				  	<p>Ik ben Léon. Ik studeer Informatiekunde en heb een voorliefde voor techniek, politiek en economie.</p>
 				  	<a role="button" class="btn btn-secondary" href="/about/">Lees verder</a><br/><br/>
 				  </div>
-				  <div class="col-md-3 aboutme">
-				  </div>
+				  <!-- <div class="col-md-3 aboutme">
+				  </div> -->
 				</div>
 	  	</div>
 	</div>

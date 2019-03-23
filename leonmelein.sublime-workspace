@@ -548,6 +548,18 @@
 		"selected_items":
 		[
 			[
+				"mark",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"hugo",
+				"Hugofy : Version"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
 				"MarkdownEditing: Fold",
 				"MarkdownEditing: Fold Level 4 Sections"
 			],
@@ -584,16 +596,8 @@
 				"MarkdownEditing: Markdown Lint"
 			],
 			[
-				"mark",
-				"MarkdownEditing: Run markdownlint"
-			],
-			[
 				"csv",
 				"CSV: Sort by column (Ascending)"
-			],
-			[
-				"ins",
-				"Package Control: Install Package"
 			],
 			[
 				"z",
@@ -696,45 +700,73 @@
 	[
 		"/Users/leon/Workspace/leonmelein.nl",
 		"/Users/leon/Workspace/leonmelein.nl/content",
-		"/Users/leon/Workspace/leonmelein.nl/content/projects",
+		"/Users/leon/Workspace/leonmelein.nl/content/blog",
 		"/Users/leon/Workspace/leonmelein.nl/themes",
 		"/Users/leon/Workspace/leonmelein.nl/themes/lmnl",
-		"/Users/leon/Workspace/leonmelein.nl/themes/lmnl/layouts",
-		"/Users/leon/Workspace/leonmelein.nl/themes/lmnl/layouts/project",
-		"/Users/leon/Workspace/leonmelein.nl/themes/lmnl/layouts/projects"
+		"/Users/leon/Workspace/leonmelein.nl/themes/lmnl/layouts"
 	],
 	"file_history":
 	[
+		"/Users/leon/Desktop/Thesis/press_examples/aalberts-20111031",
+		"/Users/leon/Desktop/Thesis/press_examples/kpn-20171020",
+		"/Users/leon/Desktop/Thesis/press_examples/akzonobel-20170719",
+		"/Users/leon/Workspace/leonmelein.nl/themes/lmnl/layouts/index.html",
+		"/Users/leon/Desktop/UE/Archive/remarks_thursday.md",
+		"/Users/leon/Desktop/Stickerpack.md",
+		"/Users/leon/Workspace/leonmelein.nl/content/blog/zetten-we-samen-groningen-op-de-kaart.md",
+		"/Users/leon/Workspace/leonmelein.nl/content/blog/bachelor-thesis.md",
+		"/Users/leon/Workspace/leonmelein.nl/themes/lmnl/layouts/partials/head.html",
+		"/Users/leon/Workspace/leonmelein.nl/themes/lmnl/layouts/blog/single.html",
+		"/Users/leon/Workspace/leonmelein.nl/themes/lmnl/static/css/app.css",
+		"/Users/leon/Workspace/leonmelein.nl/themes/lmnl/layouts/shortcodes/img.html",
+		"/Users/leon/Workspace/leonmelein.nl/content/blog/drie-keer-is-scheepsrecht.md",
+		"/Users/leon/Workspace/leonmelein.nl/themes/lmnl/static/.htaccess",
+		"/Users/leon/Workspace/leonmelein.nl/themes/lmnl/layouts/404.html",
+		"/Users/leon/Workspace/leonmelein.nl/content/project/myrug.md",
+		"/Users/leon/.zshrc",
+		"/Users/leon/Workspace/leonmelein.nl/content/about.md",
+		"/Users/leon/Desktop/deploy.py",
+		"/Users/leon/Downloads/Biblio-Bibtex.bib",
+		"/Users/leon/Desktop/Studie/GOLD/GxG_Twitter_gold.txt",
+		"/Users/leon/Desktop/Studie/GOLD/GxG_Youtube_gold.txt",
+		"/Users/leon/Desktop/Studie/GOLD/GxG_News_gold.txt",
+		"/Users/leon/Workspace/university/sharedtask2018/data/test/GxG_YouTube.txt",
+		"/Users/leon/Workspace/university/sharedtask2018/data/test/GxG_Twitter.txt",
+		"/Users/leon/Workspace/university/sharedtask2018/data/test/GxG_News.txt",
+		"/Users/leon/Desktop/naamloze map/GxG_Twitter.txt",
+		"/Users/leon/Desktop/naamloze map/GxG_YouTube.txt",
+		"/Users/leon/Desktop/naamloze map/GxG_News.txt",
+		"/Users/leon/Workspace/university/sharedtask2018/proposal/approach.tex",
+		"/Users/leon/Workspace/leonmelein.nl/themes/lmnl/layouts/projects/single.html",
+		"/Users/leon/Workspace/leonmelein.nl/themes/lmnl/layouts/projects/list.html",
+		"/Users/leon/Workspace/leonmelein.nl/themes/lmnl/layouts/blog/list.html",
+		"/Users/leon/Workspace/leonmelein.nl/.gitignore",
+		"/Users/leon/Workspace/leonmelein.nl/content/project/druktemelder.md",
+		"/Users/leon/Workspace/leonmelein.nl/content/project/ascialarm.md",
+		"/Users/leon/Workspace/leonmelein.nl/content/project/quicktick.md",
+		"/Users/leon/Workspace/leonmelein.nl/content/projects/print.md",
+		"/Users/leon/Workspace/leonmelein.nl/config.toml",
+		"/Users/leon/Workspace/leonmelein.nl/archetypes/post.md",
+		"/Users/leon/Workspace/leonmelein.nl/archetypes/project.md",
+		"/Users/leon/Workspace/leonmelein.nl/themes/lmnl/layouts/project/single.html",
 		"/Users/leon/Workspace/leonmelein.nl/themes/lmnl/layouts/project/list.html",
 		"/Users/leon/Workspace/leonmelein.nl/content/projects/_index.md",
 		"/Users/leon/Workspace/leonmelein.nl/content/project/_index.md",
 		"/Users/leon/Workspace/leonmelein.nl/content/project/yantai.md",
-		"/Users/leon/Workspace/leonmelein.nl/content/project/quicktick.md",
-		"/Users/leon/Workspace/leonmelein.nl/content/project/myrug.md",
 		"/Users/leon/Workspace/leonmelein.nl/content/project/hebjijalgestemd.md",
-		"/Users/leon/Workspace/leonmelein.nl/content/project/druktemelder.md",
 		"/Users/leon/Workspace/leonmelein.nl/content/project/constiagenda.md",
 		"/Users/leon/Workspace/leonmelein.nl/content/project/bezwaargenerator.md",
-		"/Users/leon/Workspace/leonmelein.nl/content/project/ascialarm.md",
 		"/Users/leon/Workspace/leonmelein.nl/content/project/asci-sticker-pack.md",
 		"/Users/leon/Workspace/leonmelein.nl/content/project/stemtool.md",
 		"/Users/leon/Workspace/leonmelein.nl/content/project/a6.md",
 		"/Users/leon/Workspace/leonmelein.nl/themes/lmnl/layouts/partials/menu.html",
 		"/Users/leon/Workspace/leonmelein.nl/content/projects/mobile.md",
-		"/Users/leon/Workspace/leonmelein.nl/content/projects/print.md",
 		"/Users/leon/Workspace/leonmelein.nl/content/projects/web.md",
 		"/Users/leon/Workspace/leonmelein.nl/content/projects/social.md",
 		"/Users/leon/Workspace/leonmelein.nl/content/projects/design.md",
-		"/Users/leon/Workspace/leonmelein.nl/themes/lmnl/layouts/blog/single.html",
-		"/Users/leon/Workspace/leonmelein.nl/config.toml",
-		"/Users/leon/Workspace/leonmelein.nl/themes/lmnl/layouts/projects/single.html",
-		"/Users/leon/Workspace/leonmelein.nl/themes/lmnl/layouts/projects/list.html",
-		"/Users/leon/Workspace/leonmelein.nl/themes/lmnl/layouts/index.html",
 		"/Users/leon/Workspace/leonmelein.nl/content/projects/index.md",
-		"/Users/leon/Workspace/leonmelein.nl/themes/lmnl/layouts/partials/head.html",
 		"/Users/leon/Workspace/yantai/index.html",
 		"/Users/leon/Workspace/leonmelein.nl/static/manifest.json",
-		"/Users/leon/Workspace/leonmelein.nl/content/about.md",
 		"/private/var/folders/00/md8cykr96kvfqtg8j7r4rzhm0000gn/T/fz3temp-2/robots.txt",
 		"/private/var/folders/00/md8cykr96kvfqtg8j7r4rzhm0000gn/T/fz3temp-2/app.css",
 		"/Users/leon/Workspace/leonmelein.nl/themes/lmnl/layouts/partials/footer.html",
@@ -742,24 +774,16 @@
 		"/Users/leon/Workspace/leonmelein.nl/public/css/app.css",
 		"/private/var/folders/00/md8cykr96kvfqtg8j7r4rzhm0000gn/T/fz3temp-2/index.html",
 		"/Users/leon/Workspace/leonmelein.nl/content/contact.md",
-		"/Users/leon/Workspace/leonmelein.nl/content/blog/drie-keer-is-scheepsrecht.md",
-		"/Users/leon/Workspace/leonmelein.nl/content/blog/bachelor-thesis.md",
-		"/Users/leon/Workspace/leonmelein.nl/themes/lmnl/layouts/project/single.html",
 		"/Users/leon/Workspace/leonmelein.nl/themes/lmnl/layouts/project/overview.html",
 		"/Users/leon/Workspace/leonmelein.nl/themes/lmnl/layouts/project/details/single.html",
 		"/Users/leon/Workspace/private/kindlePeriodicalDelivery/kindlePeriodicalDelivery.",
 		"/Users/leon/Workspace/private/kindlePeriodicalDelivery/kindlePeriodicalDelivery.py",
-		"/Users/leon/.zshrc",
 		"/Users/leon/Desktop/quicktick_server/index.html",
 		"/Users/leon/Desktop/quicktick_server/start.tpl",
-		"/Users/leon/Workspace/leonmelein.nl/themes/lmnl/layouts/blog/list.html",
-		"/Users/leon/Workspace/leonmelein.nl/themes/lmnl/static/css/app.css",
 		"/Users/leon/Desktop/navitems.html",
-		"/Users/leon/Workspace/leonmelein.nl/archetypes/project.md",
 		"/Users/leon/Downloads/Religieuze_betrokkenheid__kerkelijke_gezindte__regio_30122018_143206.csv",
 		"/private/var/folders/00/md8cykr96kvfqtg8j7r4rzhm0000gn/T/fz3temp-2/db-connect.php",
 		"/Users/leon/Workspace/leonmelein.nl/themes/lmnl/layouts/page/single.html",
-		"/Users/leon/Workspace/leonmelein.nl/archetypes/post.md",
 		"/Users/leon/Workspace/leonmelein.nl/static/img/me.png",
 		"/Users/leon/Workspace/leonmelein.nl/.zshrc",
 		"/Users/leon/Workspace/leonmelein.nl/themes/lmnl/layouts/partials/header.html",
@@ -778,7 +802,6 @@
 		"/Users/leon/Workspace/leonmelein.nl/content/projects.md",
 		"/Users/leon/Workspace/leonmelein.nl/content/portfolio.md",
 		"/Users/leon/Workspace/leonmelein.nl/themes/lmnl/layouts/_default/baseof.html",
-		"/Users/leon/Workspace/leonmelein.nl/themes/lmnl/layouts/404.html",
 		"/Users/leon/Workspace/leonmelein.nl/themes/lmnl/layouts/_default/list.html",
 		"/Users/leon/Workspace/leonmelein.nl/themes/lmnl/layouts/_default/single.html",
 		"/Users/leon/Library/Containers/com.apple.mail/Data/Library/Mail Downloads/BFC21768-83BD-4755-A610-0C3984195053/lexsem(1).py",
@@ -811,28 +834,7 @@
 		"/Users/leon/Workspace/asci/asci_stickers/iOS/WAStickersThirdParty/sticker_packs.wasticker",
 		"/Users/leon/likes.pl",
 		"/Volumes/Werk/consti.sql",
-		"/Users/leon/Workspace/old/lv/lv_opkomst/index.html",
-		"/Users/leon/Documents/reading_scientific_literature.md",
-		"/Users/leon/.zshenv",
-		"/Users/leon/Desktop/jupiter-child-prod/style.css",
-		"/Users/leon/Desktop/jupiter-child-prod/functions.php",
-		"/Users/leon/Workspace/yantai/en/app.css",
-		"/Users/leon/Documents/HJ RDC",
-		"/Users/leon/Documents/cantina_scrape.bat",
-		"/Users/leon/Desktop/history.py",
-		"/Users/leon/Desktop/CONFIG",
-		"/Users/leon/.homeassistant/configuration.yaml",
-		"/Users/leon/Desktop/bravia-auth-and-remote/commands",
-		"/Users/leon/Desktop/wUGs_20181214_tworuns/wUGs_CROSS_news_1.txt",
-		"/Users/leon/Desktop/Predictions/wUGs_CROSS_news_2.txt",
-		"/Users/leon/Desktop/Predictions/wUGs_CROSS_twitter_2.txt",
-		"/Users/leon/Desktop/Predictions/wUGs_CROSS_youtube_2.txt",
-		"/Users/leon/Desktop/Predictions/wUGs_IN_news_2.txt",
-		"/Users/leon/Desktop/Predictions/wUGs_IN_twitter_2.txt",
-		"/Users/leon/Desktop/Predictions/wUGs_IN_youtube_2.txt",
-		"/Users/leon/Desktop/Predictions/wUGs_CROSS_news_1.txt",
-		"/Users/leon/Desktop/Predictions/wUGs_CROSS_twitter_1.txt",
-		"/Users/leon/Desktop/Predictions/wUGs_CROSS_youtube_1.txt"
+		"/Users/leon/Workspace/old/lv/lv_opkomst/index.html"
 	],
 	"find":
 	{
@@ -850,6 +852,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"secureJS",
+			">\n",
+			",",
+			"<doc",
+			">\n",
 			"96x96",
 			"images/icons",
 			"body {\n\tfont-family: \"Source Sans Pro\", sans-serif;\n}\n\n.navbar-brand {\n\tfont-weight: 600;\n}\n\nh1, h2 {\n\tfont-weight: 600 !important;\n}\n\nh1.display-4 {\n\tfont-size: 4em !important;\n}\n\np.lead {\n\tfont-weight: 300 !important;\n\tfont-size: 2em !important;\n}\n\n.leadin {\n\tmargin-top: 0.5em;\n\tfont-size: 1.3em;\n\tfont-weight: 200;\n}\n\n.jumbotron-welcome {\n\tpadding-top: 5rem;\n}\n\n.jumbotron-about {\n\tmargin-bottom: 0 !important;\n}\n\n.bg-blue {\n\tbackground-color: #4A90E2;\n\tcolor: #fff;\n}\n\n.card-deck {\n\tmargin-bottom: 1em;\n}\n\n.footer {\n\tpadding: 1em;\n\ttext-align: center;\n\tfont-weight: 400;\n}\n\n.page {\n\tmargin-top: 1.5em;\n}\n\n.aboutme {\n\tbackground-image: url('/beta/img/me.png');\n\tbackground-size: contain;\n\tbackground-position: center;\n\t\n\tbackground-repeat: no-repeat;\n}\n\n\n.nav-header {\n\tfont-weight: bold;\n\tcolor: #000000 !important;\n}\n\n.project-select {\n\tmargin-top: 1em;\n\tmargin-bottom: 1em;\n}\n\n.card-body > h5 {\n\tmargin-bottom: 0;\n}\n\n.card-body > .summary {\n\tmargin-top: 1em;\n}\n\n.projects {\n\tcolumn-count: 2 !important;\n}\n\n/* Blog Articles */\nheader {\n\tmargin-bottom: 1.5em;\n}\n\nheader > time {\n\tpadding-top: 1em;\n}\n\nblockquote {\n\tbackground-color: #fafafa;\n\tpadding-left: 1em;\n\tpadding-right: 1em;\n\tpadding-top: 1em;\n\tpadding-bottom: 0.5em;\n}\n\n\n@media (min-width: 320px) and (max-width: 768px) {\n  .jumbotron-welcome {\n    padding-top: 4em;\n  }\n}",
@@ -868,6 +875,7 @@
 		"regex": true,
 		"replace_history":
 		[
+			".",
 			"icns",
 			"\\t&",
 			"\\)",
@@ -956,6 +964,10 @@
 				"themes/lmnl/static/css/app.css"
 			],
 			[
+				"ap",
+				"themes/lmnl/static/css/app.css"
+			],
+			[
 				"app.",
 				"themes/lmnl/static/css/app.css"
 			],
@@ -1002,10 +1014,6 @@
 			[
 				"footer",
 				"themes/lmnl/layouts/partials/footer.html"
-			],
-			[
-				"ap",
-				"public/css/app.css"
 			]
 		],
 		"width": 0.0
@@ -1018,7 +1026,7 @@
 		[
 			[
 				"",
-				"~/Workspace/private/kindlePeriodicalDelivery/kindleperiodicaldelivery.sublime-project"
+				"~/Workspace/leonmelein.nl/leonmelein.sublime-project"
 			]
 		],
 		"width": 380.0

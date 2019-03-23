@@ -72,7 +72,7 @@ p.lead {
 }
 
 .card-body > h5 {
-	margin-bottom: 0;
+	margin-bottom: 0.25em;
 }
 
 .card-body > .summary {
@@ -85,7 +85,7 @@ p.lead {
 
 /* Blog Articles */
 header {
-	margin-bottom: 1.5em;
+	margin-bottom: 1em;
 }
 
 header > time {
@@ -100,6 +100,23 @@ blockquote {
 	padding-bottom: 0.5em;
 }
 
+.badge-tag {
+    padding: 1em;
+    background-color: #4A90E2; 
+    color: #ffffff;
+}
+
+.badge-category {
+    padding: 0.50em;
+}
+
+time {
+	margin-right: 1em;
+}
+
+.fas {
+    margin-right: 0.2em;
+}
 
 @media (min-width: 320px) and (max-width: 768px) {
   .jumbotron-welcome {

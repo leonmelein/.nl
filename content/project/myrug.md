@@ -8,4 +8,4 @@ state: "Gearchiveerd"
 parent: "/projects/"
 ---
 
-Een mobiele app voor RUG-studenten
+Een mobiele app voor RUG-studenten.

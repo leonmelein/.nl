@@ -36,7 +36,9 @@
 		  {{ range (where .Site.Pages "Section" "project") }}
 		  {{ if isset .Params "product" }}
 		  		<div class="card">
-			    	<img class="card-img-top" src='{{ index .Params "featured_image"  | relURL }}' alt="Card image cap">
+		  			<a href="{{.Permalink}}">
+			    		<img class="card-img-top" src='{{ index .Params "featured_image"  | relURL }}' alt="Card image cap">
+			    	</a>
 			    	<div class="card-body">
 			      		<h5 class="card-title"><a href="{{.Permalink}}">{{.Title}}</a></h5>
 			      		{{ if isset .Params "organization" }}

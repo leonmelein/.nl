@@ -6,17 +6,16 @@
 					<header>
 						<h1>{{ .Title }}</h1>
 						<time>{{.Date.Format "2 January 2006"}}</time>
-						<em>{{ range $name := .Params.categories }}
-							- {{ $name }}
-				      	{{ end }}</em>
+						{{ range $name := .Params.categories }}
+							<span class="badge badge-pill badge-category badge-secondary"><i class="fas fa-tag"></i>{{$name}}</span>
+				      	{{ end }}
 					</header>	
 					{{ .Content }}
 				</article>
 			</div>
 			<div class="col-md-8 offset-md-2">
-				Getagd: 
 				{{ range $name := .Params.tags }}
-						#{{ $name }}
+					<span class="badge badge-pill badge-tag"><i class="fas fa-tag"></i>{{$name}}</span>
 			    {{ end }}
 			</div>
 	</div>
