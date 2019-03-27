@@ -548,6 +548,10 @@
 		"selected_items":
 		[
 			[
+				"termin",
+				"Terminal View: Open ZSH Terminal"
+			],
+			[
 				"mark",
 				"Markdown Preview: Preview in Browser"
 			],
@@ -698,15 +702,19 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/leon/Workspace/leonmelein.nl",
-		"/Users/leon/Workspace/leonmelein.nl/public",
-		"/Users/leon/Workspace/leonmelein.nl/static",
-		"/Users/leon/Workspace/leonmelein.nl/static/docs"
+		"/Users/leon/Workspace/leonmelein.nl"
 	],
 	"file_history":
 	[
-		"/private/var/folders/00/md8cykr96kvfqtg8j7r4rzhm0000gn/T/fz3temp-2/.htaccess",
+		"/Users/leon/Workspace/leonmelein.nl/leonmelein.sublime-project",
+		"/Users/leon/Workspace/leonmelein.nl/themes/lmnl/layouts/404.html",
 		"/Users/leon/Workspace/leonmelein.nl/static/.htaccess",
+		"/Users/leon/Workspace/leonmelein.nl/public/404.html",
+		"/Users/leon/Workspace/leonmelein.nl/content/blog/zetten-we-samen-groningen-op-de-kaart.md",
+		"/Users/leon/Workspace/leonmelein.nl/static/subsites/soundboard/slimstemens/index.html",
+		"/Users/leon/Workspace/private/Soundboard/manifest.json",
+		"/Users/leon/Workspace/leonmelein.nl/static/subsites/tools/index.html",
+		"/private/var/folders/00/md8cykr96kvfqtg8j7r4rzhm0000gn/T/fz3temp-2/.htaccess",
 		"/Users/leon/.zshrc",
 		"/Users/leon/Workspace/leonmelein.nl/config.toml",
 		"/private/var/folders/00/md8cykr96kvfqtg8j7r4rzhm0000gn/T/fz3temp-2/robots.txt",
@@ -717,7 +725,6 @@
 		"/Users/leon/Workspace/leonmelein.nl/themes/lmnl/layouts/index.html",
 		"/Users/leon/Desktop/UE/Archive/remarks_thursday.md",
 		"/Users/leon/Desktop/Stickerpack.md",
-		"/Users/leon/Workspace/leonmelein.nl/content/blog/zetten-we-samen-groningen-op-de-kaart.md",
 		"/Users/leon/Workspace/leonmelein.nl/content/blog/bachelor-thesis.md",
 		"/Users/leon/Workspace/leonmelein.nl/themes/lmnl/layouts/partials/head.html",
 		"/Users/leon/Workspace/leonmelein.nl/themes/lmnl/layouts/blog/single.html",
@@ -725,7 +732,6 @@
 		"/Users/leon/Workspace/leonmelein.nl/themes/lmnl/layouts/shortcodes/img.html",
 		"/Users/leon/Workspace/leonmelein.nl/content/blog/drie-keer-is-scheepsrecht.md",
 		"/Users/leon/Workspace/leonmelein.nl/themes/lmnl/static/.htaccess",
-		"/Users/leon/Workspace/leonmelein.nl/themes/lmnl/layouts/404.html",
 		"/Users/leon/Workspace/leonmelein.nl/content/project/myrug.md",
 		"/Users/leon/Workspace/leonmelein.nl/content/about.md",
 		"/Users/leon/Desktop/deploy.py",
@@ -827,12 +833,7 @@
 		"/Users/leon/Desktop/Studie/data/1.4.txt",
 		"/Users/leon/Desktop/Studie/data/11.8.txt",
 		"/Users/leon/Desktop/mk_fancy_title/mk_fancy_title.php",
-		"/Users/leon/Workspace/flocker/yes/jupiter/components/shortcodes/mk_fancy_title/config.php",
-		"/Users/leon/Workspace/flocker/yes/jupiter/components/shortcodes/mk_fancy_title/mk_fancy_title.css",
-		"/Users/leon/Desktop/martinitoren_white.svg",
-		"/Users/leon/Desktop/Export_group_Chats_Embrace.csv",
-		"/Users/leon/Workspace/asci/asci_stickers/Android/app/src/main/assets/contents.json",
-		"/Users/leon/Workspace/asci/asci_stickers/iOS/WAStickersThirdParty/sticker_packs.wasticker"
+		"/Users/leon/Workspace/flocker/yes/jupiter/components/shortcodes/mk_fancy_title/config.php"
 	],
 	"find":
 	{

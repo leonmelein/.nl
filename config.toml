@@ -4,7 +4,7 @@ DefaultContentLanguage = "nl"
 title = "Léon"
 theme = "lmnl"
 summaryLength = 40
-copyright = "Léon © 1994 - {year}"
+copyright = " © 1994 - {year}"
 [menu]
   	[[menu.main]]
   	identifier = "home"
