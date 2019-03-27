@@ -6,8 +6,14 @@ body {
 	font-weight: 600;
 }
 
-h1, h2 {
+h1 {
 	font-weight: 600 !important;
+}
+
+h2 {
+	font-weight: 300 !important;
+	color: #4A90E2;
+	font-size: 1.75em;
 }
 
 h1.display-4 {
