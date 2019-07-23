@@ -1,0 +1,3 @@
+[submodule "static/subsites/soundboard"]
+	path = static/subsites/soundboard
+	url = https://github.com/leonmelein/soundboard.git
