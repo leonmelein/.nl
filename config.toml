@@ -15,7 +15,7 @@ copyright = " © 1994 - {year}"
 	[[menu.main]]
   	identifier = "blog"
 	name = "Nieuws"
-	title = "Blog"
+	title = "Nieuws"
 	url = "/blog/"
 	weight = -400
 	[[menu.main]]
@@ -31,6 +31,12 @@ copyright = " © 1994 - {year}"
 	url = "/about/"
 	weight = -100
 	[[menu.main]]
+  	identifier = "contact"
+	name = "Contact"
+	title = "Contact"
+	url = "/contact/"
+	weight = 0
+	[[menu.footer]]
   	identifier = "contact"
 	name = "Contact"
 	title = "Contact"

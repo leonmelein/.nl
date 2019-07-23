@@ -1,9 +1,14 @@
 	<!-- Footer -->
     <div class="container footer">
     	<div class="row">
-    		<div class="col-md-12">
+    		<div class="col-md-6">
     			<span style="font-weight: 600; color: ##1c61b1;">Léon</span> {{ replace .Site.Copyright "{year}" now.Year }}
     		</div>
+            <div class="col-md-6">
+                  {{ range .Site.Menus.footer }}
+                      <a class="" href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a> 
+                  {{ end }}
+            </div>
     	</div>
     </div>
 

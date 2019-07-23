@@ -10,4 +10,7 @@ state: "Actief"
 parent: "/projects/"
 ---
 
-Bekende verenigingsbegrippen zichtbaar maken voor WhatsApp.
+<p class="lead">Stickers van ASCI-begrippen voor gebruik in WhatsApp.</p>
+
+Voor studievereniging ASCI heb ik een sticker pack in elkaar gezet voor gebruik op WhatsApp. Vele verenigingsbegrippen zijn sinds december 2018 ingetekend and gebundeld in een applicatie voor Android-toestellen. iPhone gebruikers kunnen via een speciale groep aan de stickers komen.
+
