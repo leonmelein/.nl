@@ -1,3 +1,6 @@
 [submodule "static/subsites/soundboard"]
 	path = static/subsites/soundboard
 	url = https://github.com/leonmelein/soundboard.git
+[submodule "static/subsites/slimstemens"]
+	path = static/subsites/slimstemens
+	url = https://github.com/leonmelein/slimstemens.git
