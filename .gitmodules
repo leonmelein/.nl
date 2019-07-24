@@ -4,3 +4,6 @@
 [submodule "static/subsites/slimstemens"]
 	path = static/subsites/slimstemens
 	url = https://github.com/leonmelein/slimstemens.git
+[submodule "static/subsites/lingo"]
+	path = static/subsites/lingo
+	url = https://github.com/leonmelein/lingo.git
