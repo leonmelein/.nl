@@ -16,7 +16,7 @@
 		    <div class="card-body">
 		      <h5 class="card-title"><a href="{{.Permalink}}">{{.Title}}</a></h5>
 		      <p class="card-text">{{.Summary}}</p>
-		      <p class="card-text"><small class="text-muted">{{.Date.Format "2 January 2006"}}</small></p>
+		      <p class="card-text"><small class="text-muted">{{ .Date.Day }} {{ index $.Site.Data.dates (printf "%d" .Date.Month) }} {{ .Date.Year }}</small></p>
 		   </div>
 		  </div>
       {{end}}

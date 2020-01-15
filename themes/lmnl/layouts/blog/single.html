@@ -4,7 +4,9 @@
 			<div class="col-md-8 offset-md-2">
 				<article>
 					<header>
-						<a href="{{.Parent.RelPermalink}}">← Nieuws</a><br/><br/>
+		    			<img class="card-img-top card-img-rounded" src='{{ index .Params "cover_image"  | relURL }}' alt="Card image cap">
+						<br/><br/>
+
 						<h1>{{ .Title }}</h1>
 						<i class="far fa-clock"></i> <time>{{ .Date.Day }} {{ index $.Site.Data.dates (printf "%d" .Date.Month) }} {{ .Date.Year }}</time>
 						{{ range $name := .Params.categories }}
@@ -15,18 +17,18 @@
 				</article>
 			</div>
 			<br/><br/>
-			<div class="col-md-8 offset-md-2">
+			<div class="col-md-6 offset-md-3">
 				{{ range $name := .Params.tags }}
 					<span class="badge badge-pill badge-tag"><i class="fas fa-tag"></i>{{$name}}</span>
 			    {{ end }}
 			</div>
 			<br/><br/>
-			<div class="col-md-4 offset-md-2">
+			<div class="col-md-6 offset-md-3">
 				{{if .NextInSection}}
 					<a href="{{.NextInSection.RelPermalink}}">← {{.NextInSection.Title}}</a>
 				{{ end }}
 			</div>
-			<div class="col-md-4 md-offset-2" style="text-align: right">
+			<div class="col-md-6 md-offset-3" style="text-align: right">
 				{{if .PrevInSection}}
 					<a href="{{.PrevInSection.RelPermalink}}">{{.PrevInSection.Title}} →</a>
 				{{ end }}

@@ -92,6 +92,10 @@ p.lead {
 	column-count: 2 !important;
 }
 
+.card-img-rounded {
+	border-radius: 1em;
+}
+
 /* Blog Articles */
 header {
 	margin-bottom: 1em;
