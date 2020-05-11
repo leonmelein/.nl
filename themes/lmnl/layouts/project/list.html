@@ -1,1 +1,72 @@
-<meta http-equiv="refresh" content="0; url=/projects/" />
+<!-- <meta http-equiv="refresh" content="0; url=/projects/" /> -->
+{{ partial "head.html" .}}
+<div class="container page">
+	<div class="row">
+		<div class="col-md-8 offset-md-2">
+			<h1>Projecten</h1>
+		</div>
+	</div>
+
+	<div class="row project-select">
+		<div class="col-md-8 offset-md-2">
+			<ul class="nav nav-pills">
+			  <li class="nav-item">
+			    <a class="nav-link active" href="#">Alle</a>
+			  </li>
+			  <li class="nav-item">
+			    <a class="nav-link" href="#">Design</a>
+			  </li>
+			  <li class="nav-item">
+			    <a class="nav-link" href="#">Drukwerk</a>
+			  </li>
+			  <li class="nav-item">
+			    <a class="nav-link" href="#">Mobiel</a>
+			  </li>
+			  <li class="nav-item">
+			    <a class="nav-link" href="#">Sociaal</a>
+			  </li>
+			  <li class="nav-item">
+			    <a class="nav-link" href="#">Web</a>
+			  </li>
+			</ul>			
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-8 offset-md-2 card-columns projects">
+		{{ range (where .Site.Pages "Section" "project") }}	
+			{{ if isset .Params "product" }}
+				<div class="card">
+					<a href="{{.Permalink}}">
+					<img class="card-img-top" src='{{ index .Params "featured_image"  | relURL }}' alt="Card image cap">
+					</a>
+					<div class="card-body">
+				  		<h5 class="card-title"><a href="{{.Permalink}}">{{.Title}}</a></h5>
+				  		{{ if isset .Params "organization" }}
+				  			{{ if lt (len .Params.organization) 10 }}
+				  			<p class="text-small text-muted org">
+				  				{{ range $name := .Params.organization }}
+							    	{{ $name }}<br/>
+				  				{{ end }}
+				  			</p>
+				  			{{ else }}
+				  			<p class="text-small text-muted org">{{.Params.organization}}</p>
+							{{ end }}
+
+						{{ end }}
+				  		<p class="card-text summary">{{.Summary}}</p>
+				  		<p class="card-text"><small class="text-muted">{{ .Date.Day }} {{ index $.Site.Data.dates (printf "%d" .Date.Month) }} {{ .Date.Year }}</small><br/>
+				  			{{ if eq .Params.state "Actief" }}
+							    <span class="badge badge-success">{{.Params.state}}</span>
+							{{ else }}
+								<span class="badge badge-light">{{.Params.state}}</span>
+							{{ end }}
+				  		</p>
+					</div>
+				</div>
+			{{end}}
+			{{end}}
+		</div>
+	</div>
+</div>
+{{ partial "footer.html" .}}

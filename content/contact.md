@@ -8,7 +8,7 @@ draft: false
 
 {{<lead>}}Leuk dat je contact wilt opnemen! Ik probeer je zo snel mogelijk te woord te staan, maar het juiste medium gebruiken helpt daarbij enorm.{{</lead>}}
 
-**Werk of opdrachten**. Ben je een recruiter of wil je me werk aanbieden, stuur me dan een berichtje op [LinkedIn](https://www.linkedin.com/in/leonmelein). Daar vind je ook meteen wat ik allemaal heb gedaan. Kijk ook even bij mijn [projecten](/projects).
+**Werk of opdrachten**. Ben je een recruiter of wil je me werk aanbieden, stuur me dan een berichtje op [LinkedIn](https://www.linkedin.com/in/leonmelein). Daar vind je ook meteen wat ik allemaal heb gedaan. Kijk ook even bij mijn [projecten](/project).
 
 **Media**. Wil je mij interviewen op het gebied van medezeggenschap, politiek of technologie? Geen probleem, graag zelfs! Je kunt me het beste even een mailtje sturen op [media@leonmelein.nl](mailto:media@leonmelein.nl). 
 

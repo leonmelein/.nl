@@ -6,8 +6,9 @@ featured_image: "img/quicktick-800x500.jpg"
 featured_image_land: "img/quicktick-land.png"
 partner: "Stijn Eikelboom"
 product: ["Mobiel", "Web", "Drukwerk"]
+organization: ["Groninger Debat"]
 state: "Gearchiveerd"
-parent: "/projects/"
+parent: "/project/"
 ---
 
 Een simpel, uitbreidbaar ticketsysteem.

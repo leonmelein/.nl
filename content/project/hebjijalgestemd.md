@@ -8,7 +8,7 @@ partner: "Stijn Eikelboom"
 product: "Web"
 organization: ["Letteren Vooruit", "Lijst Calimero"]
 state: "Actief"
-parent: "/projects/"
+parent: "/project/"
 ---
 
 De opkomst bij de medezeggenschapsverkiezingen in beeld gebracht.

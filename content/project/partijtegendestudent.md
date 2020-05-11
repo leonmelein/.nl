@@ -6,7 +6,7 @@ featured_image: img/partijtegenstudent-800x500.jpg
 featured_image_land: img/partijtegenstudent-land.png
 product: "Web"
 state: "Gearchiveerd"
-parent: "/projects/"
+parent: "/project/"
 ---
 
 Aandacht voor de aanstaande universiteitsraadvergaderingen genereren door de deelname van een nieuwe, absurdistische partij aan te kondigen.

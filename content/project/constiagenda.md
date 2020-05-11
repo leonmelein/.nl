@@ -6,7 +6,7 @@ featured_image: "img/constiagenda-800x500.jpg"
 featured_image_land: "img/constiagenda-land.png"
 product: "Web"
 state: "Actief"
-parent: "/projects/"
+parent: "/project/"
 ---
 
 Een overzicht van alle constitutieborrels in Groningen.

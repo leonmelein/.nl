@@ -6,7 +6,7 @@ featured_image: 'img/myrug-800x500.jpg'
 featured_image_land: 'img/myrug-land.png'
 product: "Mobiel" 
 state: "Gearchiveerd"
-parent: "/projects/"
+parent: "/project/"
 ---
 
 Een mobiele app voor RUG-studenten.

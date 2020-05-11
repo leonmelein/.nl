@@ -7,7 +7,7 @@ featured_image_land: "img/ascialarm-land.png"
 product: "Web"
 organization: "Studievereniging ASCI"
 state: "Gearchiveerd"
-parent: "/projects/"
+parent: "/project/"
 ---
 
 Het luchtalarm digitaal veiliggesteld voor de vereniging.

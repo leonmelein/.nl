@@ -6,7 +6,7 @@ featured_image: "img/bezwaargenerator-800x500.jpg"
 featured_image_land: "img/bezwaargenerator-land.png"
 product: "Web"
 state: "Gearchiveerd"
-parent: "/projects/"
+parent: "/project/"
 ---
 
 Makkelijk bezwaar maken tegen onterechte besluiten van de examencommissie.

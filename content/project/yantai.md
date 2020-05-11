@@ -6,7 +6,7 @@ featured_image: "img/yantai-800x500.jpg"
 featured_image_land: "img/yantai-land.png"
 product: "Web"
 state: "Actief"
-parent: "/projects/"
+parent: "/project/"
 ---
 
 Een up-to-date overzicht van de kosten van een mislukte branch campus van de Rijksuniversiteit Groningen.

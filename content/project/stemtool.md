@@ -7,7 +7,7 @@ featured_image_land: "img/stemtool-land.png"
 product: "Web"
 organization: "Letteren Vooruit"
 state: "Actief"
-parent: "/projects/"
+parent: "/project/"
 ---
 
 Inspraak van leden digitaal verankeren.

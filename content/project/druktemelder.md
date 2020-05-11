@@ -7,7 +7,7 @@ featured_image_land: "img/druktemelder-land.png"
 product: "Web"
 organization: "Letteren Vooruit" 
 state: "Gearchiveerd"
-parent: "/projects/"
+parent: "/project/"
 ---
 
 Om inzicht te krijgen in de (piek)drukte in de studieruimte van het Harmoniegebouw van de Rijksuniversiteit Groningen, bouwde ik voor Letteren Vooruit een systeem waarin studenten konden aangeven hoe druk het op dat moment was. Daarnaast konden ze ook een reactie achterlaten, bijvoorbeeld de vermoedelijke reden waarom het op dat moment zo druk was.

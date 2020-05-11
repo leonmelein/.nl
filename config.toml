@@ -22,7 +22,7 @@ copyright = " © 1994 - {year}"
   	identifier = "project"
 	name = "Projecten"
 	title = "Projecten"
-	url = "/projects/"
+	url = "/project/"
 	weight = -200
 	[[menu.main]]
   	identifier = "about"
