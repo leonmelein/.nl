@@ -6,7 +6,7 @@ featured_image: "img/ascialarm-800x500.jpg"
 featured_image_land: "img/ascialarm-land.png"
 product: "Web"
 organization: "Studievereniging ASCI"
-state: "Actief"
+state: "Gearchiveerd"
 parent: "/projects/"
 ---
 
