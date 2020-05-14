@@ -33,7 +33,7 @@
 	</div>
 
 	<div class="row">
-		<div class="col-md-8 offset-md-2 card-columns projects">
+		<div class="col-md-8 offset-md-2 grid">
 		{{ range (where .Site.Pages "Section" "project") }}	
 			{{ if isset .Params "product" }}
 				<div class="card">

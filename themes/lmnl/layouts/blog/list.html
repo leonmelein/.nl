@@ -7,7 +7,7 @@
 	</div>
   <div class="row">
   	  <div class="col-md-2"></div>
-	  <div class="col-md-8 card-deck">
+	  <div class="col-md-8 grid">
       {{ range (where .Data.Pages "Section" "blog") }}
       <div class="card">
 		    <a href="{{.Permalink}}">

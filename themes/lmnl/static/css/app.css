@@ -70,6 +70,12 @@ p.lead {
 }
 
 
+.grid {
+	display: grid;
+	grid-gap: 1rem;
+    grid-template-columns: calc(50% - 0.5rem) calc(50% - 0.5rem);
+}
+
 .nav-header {
 	font-weight: bold;
 	color: #000000 !important;
@@ -86,10 +92,6 @@ p.lead {
 
 .card-body > .summary {
 	margin-top: 1em;
-}
-
-.projects {
-	column-count: 2 !important;
 }
 
 .card-img-rounded {
