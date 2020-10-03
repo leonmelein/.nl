@@ -519,14 +519,6 @@
 	},
 	"buffers":
 	[
-		{
-			"contents": "#!/bin/bash -e\n# Note the '-e' in the line above. This is required for error trapping implemented below.\n\n# Repo name on GitHub\nREMOTE_REPO=https://github.com/leonmelein/.nl.git\n# A place to clone the remote repo so Hugo can build from it\nWORKING_DIRECTORY=$HOME/staging_area\n# Location (server block) where Nginx looks for content to serve\nPUBLIC_WWW=/var/www/ansonvandoren.com/html\n# Backup folder in case something goes wrong during this script\nBACKUP_WWW=$HOME/backup_html\n# Domain name so Hugo can generate links correctly\nMY_DOMAIN=leonmelein.nl\n\n# For future notifications on Telegram\n# commit_message=$1\n# pusher_name=$2\n# commit_id=$3\n\n# If something goes wrong, put the previous version back in place\nfunction cleanup {\n    echo \"A problem occurred. Reverting to backup.\"\n    rsync -aqz --del $BACKUP_WWW/ $PUBLIC_WWW\n    rm -rf $WORKING_DIRECTORY\n    # !!Placeholder for Telegram notification\n}\n\n# Call the cleanup function if this script exits abnormally. The -e flag\n# in the shebang line ensures an immediate abnormal exit on any error\ntrap cleanup EXIT\n\n# Clear out the working directory\nrm -rf $WORKING_DIRECTORY\n# Make a backup copy of current website version\nrsync -aqz $PUBLIC_WWW/ $BACKUP_WWW\n\n# Clone the new version from GitHub\ngit clone $REMOTE_REPO $WORKING_DIRECTORY\n\n# !!Placeholder for Telegram notification\n\n# Delete old version\nrm -rf $PUBLIC_WWW/*\n# Have Hugo generate the new static HTML directly into the public WWW folder\n/usr/local/bin/hugo -s $WORKING_DIRECTORY -d $PUBLIC_WWW -b \"https://${MY_DOMAIN}\"\n\n# !!Placeholder for Telegram notification\n\n# Clear out working directory\nrm -rf $WORKING_DIRECTORY\n# Exit without trapping, since everything went well\ntrap - EXIT",
-			"settings":
-			{
-				"buffer_size": 1701,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -555,6 +547,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
 			[
 				"termin",
 				"Terminal View: Open ZSH Terminal"
@@ -632,10 +628,6 @@
 				"Package Control: Install Package"
 			],
 			[
-				"pack",
-				"Package Control: Install Package"
-			],
-			[
 				"hug",
 				"Hugofy : Version"
 			],
@@ -688,7 +680,7 @@
 	},
 	"console":
 	{
-		"height": 66.0,
+		"height": 79.0,
 		"history":
 		[
 			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
@@ -710,25 +702,56 @@
 	},
 	"expanded_folders":
 	[
+		"/Users/leon/Workspace/private/leonmelein.nl",
+		"/Users/leon/Workspace/private/leonmelein.nl/content",
+		"/Users/leon/Workspace/private/leonmelein.nl/content/blog",
+		"/Users/leon/Workspace/private/leonmelein.nl/content/project",
+		"/Users/leon/Workspace/private/leonmelein.nl/themes",
+		"/Users/leon/Workspace/private/leonmelein.nl/themes/lmnl",
+		"/Users/leon/Workspace/private/leonmelein.nl/themes/lmnl/layouts",
+		"/Users/leon/Workspace/private/leonmelein.nl/themes/lmnl/layouts/blog",
+		"/Users/leon/Workspace/private/leonmelein.nl/themes/lmnl/layouts/project",
+		"/Users/leon/Workspace/private/leonmelein.nl/themes/lmnl/layouts/shortcodes",
+		"/Users/leon/Workspace/private/leonmelein.nl/themes/lmnl/static",
+		"/Users/leon/Workspace/private/leonmelein.nl/themes/lmnl/static/css"
 	],
 	"file_history":
 	[
-		"/Users/leon/Workspace/cards_backup.html",
-		"/Users/leon/Workspace/private/leonmelein.nl/themes/lmnl/layouts/projects/list.html",
+		"/Users/leon/stemwijzer/gsbkieswijzer.xtiaan.nl/js/gsb-kieswijzer.js",
+		"/Users/leon/Workspace/private/leonmelein.nl/themes/lmnl/layouts/index.html",
+		"/Users/leon/Workspace/private/leonmelein.nl/themes/lmnl/layouts/project/list.html",
+		"/Users/leon/Workspace/private/leonmelein.nl/themes/lmnl/static/css/app.css",
+		"/Users/leon/Workspace/private/leonmelein.nl/themes/lmnl/layouts/blog/list.html",
+		"/Users/leon/Workspace/private/leonmelein.nl/themes/lmnl/layouts/blog/single.html",
+		"/Users/leon/Workspace/private/leonmelein.nl/content/blog/satirische-partij-hoopt-op-aandacht-voor-verkiezingen.md",
+		"/Users/leon/Workspace/private/leonmelein.nl/content/blog/nieuwe-studentenpartij-wil-letteren-vooruit-helpen.md",
+		"/Users/leon/Workspace/private/leonmelein.nl/content/blog/drie-keer-is-scheepsrecht.md",
+		"/Users/leon/Desktop/postive_micro_f1.tsv",
+		"/Users/leon/Workspace/private/leonmelein.nl/content/project/quicktick.md",
+		"/Users/leon/Workspace/private/leonmelein.nl/content/project/yantai.md",
+		"/Users/leon/Workspace/private/leonmelein.nl/content/project/stemtool.md",
 		"/Users/leon/Workspace/private/leonmelein.nl/content/project/partijtegendestudent.md",
+		"/Users/leon/Workspace/private/leonmelein.nl/content/project/myrug.md",
+		"/Users/leon/Workspace/private/leonmelein.nl/content/project/hebjijalgestemd.md",
+		"/Users/leon/Workspace/private/leonmelein.nl/content/project/druktemelder.md",
+		"/Users/leon/Workspace/private/leonmelein.nl/content/project/constiagenda.md",
+		"/Users/leon/Workspace/private/leonmelein.nl/content/project/bezwaargenerator.md",
 		"/Users/leon/Workspace/private/leonmelein.nl/content/project/ascialarm.md",
 		"/Users/leon/Workspace/private/leonmelein.nl/content/project/asci-sticker-pack.md",
+		"/Users/leon/Workspace/private/leonmelein.nl/content/project/a6.md",
+		"/Users/leon/Workspace/private/leonmelein.nl/content/privacy.md",
+		"/Users/leon/Workspace/private/leonmelein.nl/content/contact.md",
+		"/Users/leon/Workspace/private/leonmelein.nl/content/about.md",
+		"/Users/leon/Workspace/private/leonmelein.nl/config.toml",
+		"/Users/leon/Workspace/private/leonmelein.nl/themes/lmnl/layouts/projects/list.html",
+		"/Users/leon/Workspace/cards_backup.html",
 		"/Users/leon/Desktop/partijtegenstudent-land.png",
 		"/Users/leon/Desktop/partijtegenstudent-800x500.jpg",
 		"/Users/leon/Downloads/3d6e085624254837192eba89c66fc23a.ico/manifest.json",
 		"/Users/leon/Workspace/tsl/constiagenda/app/app.css",
-		"/Users/leon/Workspace/private/leonmelein.nl/config.toml",
-		"/Users/leon/Workspace/private/leonmelein.nl/themes/lmnl/layouts/blog/list.html",
 		"/Users/leon/Workspace/private/leonmelein.nl/archetypes/post.md",
 		"/Users/leon/Workspace/private/leonmelein.nl/static/.htaccess",
 		"/Users/leon/Workspace/private/leonmelein.nl/.gitignore",
-		"/Users/leon/Workspace/private/leonmelein.nl/themes/lmnl/layouts/index.html",
-		"/Users/leon/Workspace/private/leonmelein.nl/content/about.md",
 		"/Users/leon/Workspace/leonmelein.nl/themes/lmnl/static/css/app.css",
 		"/Users/leon/Workspace/leonmelein.nl/config.toml",
 		"/Users/leon/Workspace/leonmelein.nl/themes/lmnl/layouts/partials/footer.html",
@@ -821,26 +844,7 @@
 		"/Users/leon/Workspace/leonmelein.nl/archetypes/post.md",
 		"/Users/leon/Workspace/leonmelein.nl/archetypes/project.md",
 		"/Users/leon/Workspace/leonmelein.nl/themes/lmnl/layouts/project/list.html",
-		"/Users/leon/Workspace/leonmelein.nl/content/projects/_index.md",
-		"/Users/leon/Workspace/leonmelein.nl/content/project/_index.md",
-		"/Users/leon/Workspace/leonmelein.nl/themes/lmnl/layouts/partials/menu.html",
-		"/Users/leon/Workspace/leonmelein.nl/content/projects/mobile.md",
-		"/Users/leon/Workspace/leonmelein.nl/content/projects/web.md",
-		"/Users/leon/Workspace/leonmelein.nl/content/projects/social.md",
-		"/Users/leon/Workspace/leonmelein.nl/content/projects/design.md",
-		"/Users/leon/Workspace/leonmelein.nl/content/projects/index.md",
-		"/Users/leon/Workspace/yantai/index.html",
-		"/Users/leon/Workspace/leonmelein.nl/static/manifest.json",
-		"/private/var/folders/00/md8cykr96kvfqtg8j7r4rzhm0000gn/T/fz3temp-2/app.css",
-		"/private/var/folders/00/md8cykr96kvfqtg8j7r4rzhm0000gn/T/fz3temp-2/app 2.css",
-		"/Users/leon/Workspace/leonmelein.nl/public/css/app.css",
-		"/private/var/folders/00/md8cykr96kvfqtg8j7r4rzhm0000gn/T/fz3temp-2/index.html",
-		"/Users/leon/Workspace/leonmelein.nl/themes/lmnl/layouts/project/overview.html",
-		"/Users/leon/Workspace/leonmelein.nl/themes/lmnl/layouts/project/details/single.html",
-		"/Users/leon/Workspace/private/kindlePeriodicalDelivery/kindlePeriodicalDelivery.",
-		"/Users/leon/Workspace/private/kindlePeriodicalDelivery/kindlePeriodicalDelivery.py",
-		"/Users/leon/Desktop/quicktick_server/index.html",
-		"/Users/leon/Desktop/quicktick_server/start.tpl"
+		"/Users/leon/Workspace/leonmelein.nl/content/projects/_index.md"
 	],
 	"find":
 	{
@@ -904,36 +908,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1701,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								643,
-								594
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/ShellScript/Bash.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
