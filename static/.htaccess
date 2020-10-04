@@ -3,4 +3,5 @@ RewriteEngine On
 RewriteRule ^/?tools/(.*)$ /subsites/tools/$1 [R=301,NC,L]
 RewriteRule ^/?soundboard/(.*)$ /subsites/soundboard/$1 [R=301,NC,L]
 RewriteRule ^/?duistereplanproducties/(.*)$ /subsites/duistereplanproducties/$1 [R=301,NC,L]
+RewriteRule ^/?ishetalvakantie(.*)$ /subsites/ishetalvakantie/$1 [R=301,NC,L]
 ErrorDocument 404 /404.html
