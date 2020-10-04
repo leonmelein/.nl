@@ -1,14 +1,14 @@
 {
-  "name": "ishetalvakantie",
-  "short_name": "ishetalvakantie",
-  "description": "Is het al vakantie? - Website in React",
+  "name": "Is het al vakantie?",
+  "short_name": "Is het al vakantie?",
+  "description": "Aftellen naar Vaals",
   "dir": "auto",
   "lang": "en-US",
   "display": "standalone",
   "orientation": "any",
   "start_url": "/?homescreen=1",
-  "background_color": "#fff",
-  "theme_color": "#fff",
+  "background_color": "#ddd",
+  "theme_color": "#4A90E2",
   "icons": [
     {
       "src": "assets/android-chrome-36x36.png",
