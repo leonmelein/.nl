@@ -5,6 +5,8 @@ draft: false
 ---
 
 # Over mij
+![Foto universiteitsraadverkiezingen &copy; Hanne Oelen (2017)](/img/about.jpg)
+
 {{<lead>}}Ik ben Léon Melein, BSc. Ik studeer Informatiekunde en heb een voorliefde voor techniek, politiek en economie. {{</lead>}}
 
 **Opleiding.** Momenteel rond ik het Information Science programma af binnen de master Communicatie- en Informatiewetenschappen aan de Rijksuniversiteit Groningen. Hiervoor heb ik de bachelor Informatiekunde gevolgd en met een cum laude diploma afgerond.
