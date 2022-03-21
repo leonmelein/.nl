@@ -52,3 +52,9 @@ copyright = " © 1994 - {year}"
   	organization = "organizations"
   	state = "states"
   	partner = "partners"
+[markup.goldmark.renderer]
+    unsafe = true
+[outputs]
+    home = ["html", "json"]
+    page = ["html", "json"]
+    post = ["html", "json"]

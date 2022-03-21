@@ -14,7 +14,7 @@ tags:
 parent: '/blog/'
 ---
 
-Sinds vorige week mag ik het hardop zeggen: komende universiteitsraadverkiezingen ben ik weer kandidaat voor Lijst​ Calimero!
+Sinds vorige week mag ik het hardop zeggen: komende universiteitsraadverkiezingen ben ik weer kandidaat voor Lijst Calimero!
 
 Het worden voor mij de derde verkiezingen op rij binnen de universiteit, na in 2015 verkozen te worden als lid van de faculteitsraad namens Letteren Vooruit en in 2016 ook kandidaat te zijn geweest voor de universiteitsraad bij Lijst Calimero. Het is dan ook toepasselijk dat ik dit jaar de nummer 3 ben op de lijst. 😊
 
@@ -31,4 +31,4 @@ Ik zal het niet alleen kunnen. Ik kan nog zo kritisch zijn, soms mis ik ook iets
 
 Op die manier kan ik het meeste betekenen. **Voor jou. Voor de RUG. Voor Groningen.**
 
-> De universiteitsraadverkiezingen zijn dit jaar van 15 mei 9:00 tot en met 19 mei 17:00. Wil je tot die tijd op de hoogte blijven van alles wat er in de U-raad gebeurt? Like [Lijst Calimero](https://www.facebook.com/lijstcalimero/). en mis niks! 
+> De universiteitsraadverkiezingen zijn dit jaar van 15 mei 9:00 tot en met 19 mei 17:00. Wil je tot die tijd op de hoogte blijven van alles wat er in de U-raad gebeurt? Like [Lijst Calimero](https://www.facebook.com/lijstcalimero/) en mis niks! 

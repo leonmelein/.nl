@@ -3,8 +3,8 @@
 
 name = "Léon Melein"
 license = "MIT"
-licenselink = "https://github.com/leonmelein/leonmelein_theme/blob/master/LICENSE"
-description = ""
+licenselink = "https://github.com/leonmelein/.nl/blob/master/themes/lmnl/LICENSE"
+description = "Legacy leonmelein.nl theme"
 homepage = "https://www.leonmelein.nl/"
 tags = []
 features = []

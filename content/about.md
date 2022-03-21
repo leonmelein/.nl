@@ -5,7 +5,8 @@ draft: false
 ---
 
 # Over mij
-![Foto universiteitsraadverkiezingen &copy; Hanne Oelen (2017)](/img/about.jpg)
+
+<img src="/img/melein_2022.jpg" alt="Foto &copy; Hester Druijff (2022)" class="rounded"/>
 
 {{<lead>}}Ik ben Léon Melein, BSc. Ik studeer Informatiekunde en heb een voorliefde voor techniek, politiek en economie. {{</lead>}}
 
