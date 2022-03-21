@@ -1,4 +1,4 @@
-name: GitHub Pages
+name: Automatic deploy
 
 on:
   workflow_dispatch:
@@ -39,19 +39,3 @@ jobs:
       - name: Deploy with rsync
         run: rsync -avz ./public/ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/www/leonmelein
 
-      - name: Add nginx config
-        uses: appleboy/scp-action@master
-        with:
-          host: ${{ secrets.SSH_HOST }}
-          username: ${{ secrets.SSH_USER }}
-          key: ${{ secrets.SSH_PRIVATE_KEY }}
-          source: ".nginx/beta.leonmelein.conf"
-          target: "/etc/nginx/sites-available/"
-      
-      - name: Request cert
-        uses: garygrossgarten/github-action-ssh@release
-        with:
-          command: sudo certbot --nginx -d beta.leonmelein.nl -d www.beta.leonmelein.nl
-          host: ${{ secrets.SSH_HOST }}
-          username: github-actions
-          privateKey: ${{ secrets.SSH_PRIVATE_KEY}}
