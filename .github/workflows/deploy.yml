@@ -1,11 +1,11 @@
 name: Automatic deploy
 
 on:
-  workflow_dispatch:
   push:
     branches:
       - main  # Set a branch to deploy
   pull_request:
+  workflow_dispatch:
 
 jobs:
   deploy:
