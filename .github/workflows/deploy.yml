@@ -55,13 +55,13 @@ jobs:
           username: github-actions		
           privateKey: ${{ secrets.SSH_PRIVATE_KEY}}		
 
-      - name: Request/reinstall certificate		
-        uses: garygrossgarten/github-action-ssh@release		
-        with:		
-          command: sudo certbot --nginx -d ${{ secrets.URL }} -d www.${{ secrets.URL }} --keep --no-redirect		
-          host: ${{ secrets.SSH_HOST }}		
-          username: github-actions		
-          privateKey: ${{ secrets.SSH_PRIVATE_KEY}}		
+      # - name: Request/reinstall certificate		
+      #   uses: garygrossgarten/github-action-ssh@release		
+      #   with:		
+      #     command: sudo certbot --nginx -d ${{ secrets.URL }} -d www.${{ secrets.URL }} --keep --no-redirect		
+      #     host: ${{ secrets.SSH_HOST }}		
+      #     username: github-actions		
+      #     privateKey: ${{ secrets.SSH_PRIVATE_KEY}}		
 
       # - name: Copy minimal (HTTPS only) config
       #   uses: garygrossgarten/github-action-ssh@release		
@@ -71,11 +71,11 @@ jobs:
       #     username: github-actions		
       #     privateKey: ${{ secrets.SSH_PRIVATE_KEY}}		
 
-      - name: Restart nginx	
-        uses: garygrossgarten/github-action-ssh@release		
-        with:		
-          command: sudo systemctl restart nginx	
-          host: ${{ secrets.SSH_HOST }}		
-          username: github-actions		
-          privateKey: ${{ secrets.SSH_PRIVATE_KEY}}		
+      # - name: Restart nginx	
+      #   uses: garygrossgarten/github-action-ssh@release		
+      #   with:		
+      #     command: sudo systemctl restart nginx	
+      #     host: ${{ secrets.SSH_HOST }}		
+      #     username: github-actions		
+      #     privateKey: ${{ secrets.SSH_PRIVATE_KEY}}		
 
