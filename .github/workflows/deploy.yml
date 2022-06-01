@@ -42,7 +42,7 @@ jobs:
       - name: Request cert		
         uses: garygrossgarten/github-action-ssh@release		
         with:		
-          command: sudo certbot --nginx -d ${{ secrets.URL }} -d www.${{ secrets.URL }} --keep		
+          command: sudo certbot --nginx -d ${{ secrets.URL }} -d www.${{ secrets.URL }} --keep --no-redirect		
           host: ${{ secrets.SSH_HOST }}		
           username: github-actions		
           privateKey: ${{ secrets.SSH_PRIVATE_KEY}}		
