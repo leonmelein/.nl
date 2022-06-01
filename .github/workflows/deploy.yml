@@ -39,6 +39,22 @@ jobs:
       - name: Deploy with rsync
         run: rsync -avz ./public/ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/www/leonmelein
 
+      # - name: Copy minimal (HTTP only) config
+      #   uses: garygrossgarten/github-action-ssh@release		
+      #   with:		
+      #     command: sudo mv /www/leonmelein/conf/minimal.conf	/etc/nginx/conf.d/
+      #     host: ${{ secrets.SSH_HOST }}		
+      #     username: github-actions		
+      #     privateKey: ${{ secrets.SSH_PRIVATE_KEY}}		
+
+      - name: Restart nginx	
+        uses: garygrossgarten/github-action-ssh@release		
+        with:		
+          command: sudo systemctl restart nginx	
+          host: ${{ secrets.SSH_HOST }}		
+          username: github-actions		
+          privateKey: ${{ secrets.SSH_PRIVATE_KEY}}		
+
       - name: Request/reinstall certificate		
         uses: garygrossgarten/github-action-ssh@release		
         with:		
@@ -46,6 +62,14 @@ jobs:
           host: ${{ secrets.SSH_HOST }}		
           username: github-actions		
           privateKey: ${{ secrets.SSH_PRIVATE_KEY}}		
+
+      # - name: Copy minimal (HTTPS only) config
+      #   uses: garygrossgarten/github-action-ssh@release		
+      #   with:		
+      #     command: sudo mv /www/leonmelein/conf/full.conf	/etc/nginx/conf.d/
+      #     host: ${{ secrets.SSH_HOST }}		
+      #     username: github-actions		
+      #     privateKey: ${{ secrets.SSH_PRIVATE_KEY}}		
 
       - name: Restart nginx	
         uses: garygrossgarten/github-action-ssh@release		
