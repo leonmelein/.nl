@@ -40,11 +40,9 @@ jobs:
         run: rsync -avz ./public/ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/www/leonmelein
 
       - name: Request cert		
-         uses: garygrossgarten/github-action-ssh@release		
-         with:		
-           command: sudo certbot --nginx -d ${{ secrets.URL }} -d www.${{ secrets.URL }}		
-           host: ${{ secrets.SSH_HOST }}		
-           username: github-actions		
-           privateKey: ${{ secrets.SSH_PRIVATE_KEY}}		
-
-
+        uses: garygrossgarten/github-action-ssh@release		
+        with:		
+          command: sudo certbot --nginx -d ${{ secrets.URL }} -d www.${{ secrets.URL }}		
+          host: ${{ secrets.SSH_HOST }}		
+          username: github-actions		
+          privateKey: ${{ secrets.SSH_PRIVATE_KEY}}		
