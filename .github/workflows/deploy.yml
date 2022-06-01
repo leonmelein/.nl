@@ -1,10 +1,10 @@
 name: Automatic deploy
 
 on:
-  # push:
-  #   branches:
-  #     - master  # Set a branch to deploy
-  # pull_request:
+  push:
+    branches:
+      - master  # Set a branch to deploy
+  pull_request:
   workflow_dispatch:
 
 jobs:
@@ -42,7 +42,7 @@ jobs:
       - name: Request cert		
         uses: garygrossgarten/github-action-ssh@release		
         with:		
-          command: sudo certbot --nginx -d ${{ secrets.URL }} -d www.${{ secrets.URL }}		
+          command: sudo certbot --nginx -d ${{ secrets.URL }} -d www.${{ secrets.URL }} --keep		
           host: ${{ secrets.SSH_HOST }}		
           username: github-actions		
           privateKey: ${{ secrets.SSH_PRIVATE_KEY}}		
