@@ -15,9 +15,8 @@ jobs:
     steps:
         - name: Checkout
           uses: actions/checkout@v4
-        - uses: jakejarvis/hugo-build-action@master
-          with:
-            args: --minify
+        - name: Build site
+          run: hugo build
         - name: Copy site contents
           run: cp -r /home/github-actions/actions-runner/_work/.nl/.nl/public/. /www/leonmelein
         - name: Reload Nginx
