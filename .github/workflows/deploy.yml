@@ -16,7 +16,7 @@ jobs:
         - name: Checkout
           uses: actions/checkout@v4
         - name: Build site
-          run: hugo build
+          run: hugo --minify
         - name: Copy site contents
           run: cp -r /home/github-actions/actions-runner/_work/.nl/.nl/public/. /www/leonmelein
         - name: Reload Nginx
