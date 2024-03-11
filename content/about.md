@@ -7,6 +7,7 @@ draft: false
 # Over mij
 
 <img src="/img/melein_2022.jpg" alt="Foto" class="rounded"/>
+<br/>
 
 Ik ben Léon Melein. Een software engineer met voorliefde voor techniek, politiek en economie.
 
@@ -17,7 +18,7 @@ Tijdens mijn studie hield ik me volop bezig met het reilen en zeilen van mijn un
 
 Ook na mijn betrokkenheid bij de universiteitspolitiek probeer ik student en medezeggenschap scherp te houden met acties, zoals:  
 
-- [(Yantai.nl)](https://www.yantai.nl) - de kosten inzichtelijk maken van de uiteindelijk afgeketste campus van de RUG in China
+- [Yantai.nl](https://www.yantai.nl) - de kosten inzichtelijk maken van de uiteindelijk afgeketste campus van de RUG in China
 - [De Partij tegen de Student](https://www.partijtegendestudent.nl) - de neppartij die studenten aanspoorde tóch te gaan stemmen tijdens de universitaire verkiezingen in coronajaar 2020
 
 ## Creatief ondernemen
