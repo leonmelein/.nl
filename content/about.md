@@ -6,7 +6,7 @@ draft: false
 
 # Over mij
 
-<img src="/img/melein_2022.jpg" alt="Foto &copy; Hester Druijff (2022)" class="rounded"/>
+<img src="/img/melein_2022.jpg" alt="Foto" class="rounded"/>
 
 {{<lead>}}Ik ben Léon Melein. Een software engineer een voorliefde voor techniek, politiek en economie. {{</lead>}}
 
