@@ -8,16 +8,19 @@ draft: false
 
 <img src="/img/melein_2022.jpg" alt="Foto" class="rounded"/>
 
-{{<lead>}}Ik ben Léon Melein. Een software engineer een voorliefde voor techniek, politiek en economie. {{</lead>}}
+Ik ben Léon Melein. Een software engineer met voorliefde voor techniek, politiek en economie.
 
-**Opleiding.** Ik heb een bachelor Informatiekunde gevolgd aan de Rijksuniversiteit Groningen en met een cum laude diploma afgerond.
+Ik heb een bachelor Informatiekunde gevolgd aan de Rijksuniversiteit Groningen en met een cum laude diploma afgerond. Daarna heb ik gewerkt voor de RDW als Data Engineer en Software Engineer. Tegenwoordig zit ik bij ilionx. Momenteel heb ik een opdracht bij PGGM, waar ik als DevOps Engineer onderdeel ben van het Data Science Support Team.
 
-**Medezeggenschap.** Tijdens mijn studie ben ik ook actief geweest in de medezeggenschap. Ik begon als lid van de opleidingscommissie. Daarna richtte ik samen met studiegenoot [Reinard van Dalen](https://www.reinardvandalen.nl) de partij [Letteren Vooruit](http://www.letterenvooruit.nl) om een plek in de faculteitsraad te veroveren. Na een succesvol jaar nam ik afscheid en richtte ik me op de universiteitsbrede politiek. Dit resulteerde in het lidmaatschap van de universiteitsraad voor [Lijst Calimero](https://www.lijstcalimero.nl) in het academisch jaar 2017-2018. 
+## Maatschappelijk betrokken
+Tijdens mijn studie hield ik me volop bezig met het reilen en zeilen van mijn universiteit. Ik begon als lid van de opleidingscommissie. Daarna richtte ik samen met studiegenoot [Reinard van Dalen](https://www.reinardvandalen.nl) de partij [Letteren Vooruit](http://www.letterenvooruit.nl) om een plek in de faculteitsraad te veroveren. Na een succesvol jaar nam ik afscheid en richtte ik me op de universiteitsbrede politiek. Dit resulteerde in het lidmaatschap van de universiteitsraad voor [Lijst Calimero](https://www.lijstcalimero.nl) in het academisch jaar 2017-2018.
 
-Alhoewel ik nog altijd kritisch kijk naar de gang van zaken aan de universiteit, ben ik niet meer formeel politiek actief. Met initiatieven als [Yantai.nl](https://www.yantai.nl) en recentelijk [de Partij tegen de Student](https://www.partijtegendestudent.nl) probeer ik de medezeggenschap en alle studenten van de RUG nog altijd scherp te houden.
+Ook na mijn betrokkenheid bij de universiteitspolitiek probeer ik student en medezeggenschap scherp te houden met acties, zoals:  
 
-**Nevenactiviteiten.** Bij [Studievereniging ASCI](https://www.ascigroningen.nl/commissies) heb ik meerdere commissies voorgezeten. Afgelopen jaar gaf ik leiding aan de mediacommissie, die het bestuur en de commissies voorziet van promotiemateriaal en de maandelijkse nieuwsbrief van de vereniging schrijft. Daarnaast onderneem ik ook nog losse klussen en hobbyprojecten naast mijn studie. Een kleine selectie van mijn werk vind je bij [projecten](/project/).
+- [(Yantai.nl)](https://www.yantai.nl) - de kosten inzichtelijk maken van de uiteindelijk afgeketste campus van de RUG in China
+- [De Partij tegen de Student](https://www.partijtegendestudent.nl) - de neppartij die studenten aanspoorde tóch te gaan stemmen tijdens de universitaire verkiezingen in coronajaar 2020
+
+## Creatief ondernemen
+Bij [Studievereniging ASCI](https://www.ascigroningen.nl/commissies) heb ik meerdere commissies voorgezeten. In 2019 gaf ik leiding aan de mediacommissie, die het bestuur en de commissies voorziet van promotiemateriaal en de maandelijkse nieuwsbrief van de vereniging schrijft. Daarnaast onderneem ik ook nog losse klussen en hobbyprojecten naast mijn studie. Een kleine selectie van mijn werk vind je bij [projecten](/project/).
 
 <blockquote>Voor een volledig overzicht van mijn studies, ervaring en nevenactiviteiten, werp een blik op mijn <a href="https://www.linkedin.com/in/leonmelein">LinkedIn</a> pagina.</blockquote>
-
-
