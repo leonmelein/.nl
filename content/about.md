@@ -1,15 +1,10 @@
 ---
-title: "About"
+title: "Over mij"
 date: 2018-12-21T23:13:08+01:00
 draft: false
 ---
 
-# Over mij
-
-<img src="/img/melein_2022.jpg" alt="Foto" class="rounded"/>
-<br/>
-
-Ik ben Léon Melein. Een software engineer met voorliefde voor techniek, politiek en economie.
+<img src="/img/melein_2022.jpg" alt="Foto &copy; Hester Druijff (2022)" class="rounded"/>
 
 Ik heb een bachelor Informatiekunde gevolgd aan de Rijksuniversiteit Groningen en met een cum laude diploma afgerond. Daarna heb ik gewerkt voor de RDW als Data Engineer en Software Engineer. Tegenwoordig zit ik bij ilionx. Momenteel heb ik een opdracht bij PGGM, waar ik als DevOps Engineer onderdeel ben van het Data Science Support Team.
 

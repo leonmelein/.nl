@@ -1,5 +1,5 @@
 ---
-title: "Satirische partij hoopt op aandacht voor verkiezingen"
+title: "UKrant: Satirische partij hoopt op aandacht voor verkiezingen"
 date: 2020-05-12T13:04:00+02:00
 media: "UKrant"
 featured_image: img/ptds_800x500.jpg

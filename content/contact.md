@@ -4,8 +4,6 @@ date: 2018-12-21T23:13:52+01:00
 draft: false
 ---
 
-# Contact
-
 {{<lead>}}Leuk dat je contact wilt opnemen! Ik probeer je zo snel mogelijk te woord te staan, maar het juiste medium gebruiken helpt daarbij enorm.{{</lead>}}
 
 **Werk**. Heb je een vraag over mijn werk of mijn projecten, stuur me dan een berichtje op [LinkedIn](https://www.linkedin.com/in/leonmelein). Daar vind je ook meteen wat ik allemaal heb gedaan. Kijk ook even bij mijn [projecten](/project).

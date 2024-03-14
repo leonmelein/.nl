@@ -2,7 +2,7 @@ baseURL = "https://beta.leonmelein.nl/"
 languageCode = "nl-nl"
 DefaultContentLanguage = "nl"
 title = "Léon"
-theme = "lmnl"
+theme = "leon2024"
 summaryLength = 40
 copyright = " © 1994 - {year}"
 [menu]
