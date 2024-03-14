@@ -9,4 +9,6 @@ state: "Actief"
 parent: "/project/"
 ---
 
+![Foto](/img/yantai-800x500.jpg)
+
 Een up-to-date overzicht van de kosten van een mislukte branch campus van de Rijksuniversiteit Groningen.

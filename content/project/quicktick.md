@@ -10,5 +10,6 @@ organization: ["Groninger Debat"]
 state: "Gearchiveerd"
 parent: "/project/"
 ---
+![Foto](/img/quicktick-800x500.jpg)
 
 Een simpel, uitbreidbaar ticketsysteem.

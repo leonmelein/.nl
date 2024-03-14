@@ -10,6 +10,9 @@ state: "Actief"
 parent: "/project/"
 ---
 
+![Foto](/img/tuwu-800x500.jpg)
+
+
 __thumbs up, way up!__ is een leertraject van de Vrije Universiteit Amsterdam, dat sociaal werkers positieve gedragsveranderingstactieken leert om toe te passen in het werken met gezinnen in achterstand. Het ADRIBA-instituut biedt dit traject aan in samenwerking met onder andere het Ministerie van Sociale Zaken en Werkgelegenheid, en de Uitvoeringsbrigade. 
 
 ## Werkzaamheden

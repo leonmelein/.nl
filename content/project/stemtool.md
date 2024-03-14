@@ -9,5 +9,6 @@ organization: "Letteren Vooruit"
 state: "Actief"
 parent: "/project/"
 ---
+![Foto](/img/stemtool-800x500.jpg)
 
 Inspraak van leden digitaal verankeren.

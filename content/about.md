@@ -4,7 +4,7 @@ date: 2018-12-21T23:13:08+01:00
 draft: false
 ---
 
-<img src="/img/melein_2022.jpg" alt="Foto" class="rounded"/>
+![Foto](/img/melein_2022.jpg "Foto")
 
 Ik heb een bachelor Informatiekunde gevolgd aan de Rijksuniversiteit Groningen en met een cum laude diploma afgerond. Daarna heb ik gewerkt voor de RDW als Data Engineer en Software Engineer. Tegenwoordig zit ik bij ilionx. Momenteel heb ik een opdracht bij PGGM, waar ik als DevOps Engineer onderdeel ben van het Data Science Support Team.
 

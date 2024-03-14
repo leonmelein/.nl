@@ -9,6 +9,6 @@ organization: "Studievereniging ASCI"
 state: "Actief"
 parent: "/project/"
 ---
+![Foto](/img/asci-sticker-pack-800x500.jpg)
 
 Voor studievereniging ASCI heb vele verenigingsbegrippen in WhatsApp Stickers omgezet. Deze zijn sinds december 2018 ingetekend and gebundeld in een applicatie voor Android-toestellen. iPhone gebruikers kunnen via een speciale groep aan de stickers komen.
-

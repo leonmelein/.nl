@@ -8,5 +8,6 @@ product: "Mobiel"
 state: "Gearchiveerd"
 parent: "/project/"
 ---
+![Foto](/img/myrug-800x500.jpg)
 
 Een mobiele app voor RUG-studenten.

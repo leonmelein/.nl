@@ -10,5 +10,6 @@ organization: ["Letteren Vooruit", "Lijst Calimero"]
 state: "Actief"
 parent: "/project/"
 ---
+![Foto](/img/hebjijalgestemd-800x500.jpg)
 
 De opkomst bij de medezeggenschapsverkiezingen in beeld gebracht.

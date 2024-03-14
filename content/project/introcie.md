@@ -9,5 +9,6 @@ organization: "Studievereniging ASCI"
 state: "Gearchiveerd"
 parent: "/project/"
 ---
+![Foto](/img/introcie-800x500.jpg)
 
 Voor het introductiekamp van Studievereniging ASCI in 2015 bouwde ik een app die deelnemers toegang gaf tot het programma, de routes naar en op de locatie, en de contactgegevens van de organisatie.

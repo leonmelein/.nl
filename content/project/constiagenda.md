@@ -8,5 +8,6 @@ product: "Web"
 state: "Actief"
 parent: "/project/"
 ---
+![Foto](/img/constiagenda-800x500.jpg)
 
 Een overzicht van alle constitutieborrels in Groningen.

@@ -9,5 +9,6 @@ organization: "Studievereniging ASCI"
 state: "Gearchiveerd"
 parent: "/project/"
 ---
+![Foto](/img/ascialarm-800x500.jpg)
 
 Het luchtalarm digitaal veiliggesteld voor de vereniging.
