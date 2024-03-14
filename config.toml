@@ -6,12 +6,6 @@ theme = "leon2024"
 summaryLength = 40
 copyright = " © 1994 - {year}"
 [menu]
-  	[[menu.main]]
-  	identifier = "home"
-	name = "Home"
-	title = "Home"
-	url = "/"
-	weight = -500
 	[[menu.main]]
   	identifier = "blog"
 	name = "Nieuws"
@@ -54,7 +48,3 @@ copyright = " © 1994 - {year}"
   	partner = "partners"
 [markup.goldmark.renderer]
     unsafe = true
-[outputs]
-    home = ["html", "json"]
-    page = ["html", "json"]
-    post = ["html", "json"]

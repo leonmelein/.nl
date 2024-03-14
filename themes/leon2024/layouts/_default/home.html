@@ -1,7 +1,9 @@
 {{ define "main" }}
   {{ .Content }}
-  {{ range site.RegularPages }}
+  {{ range (where .Site.RegularPages "Section" "blog") }}
     <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+    {{ partial "categories.html" (dict "taxonomy" "categories" "page" .) }}
+
     {{ .Summary }}
   {{ end }}
 {{ end }}
