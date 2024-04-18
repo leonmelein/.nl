@@ -14,7 +14,7 @@ tags:
 parent: '/blog/'
 ---
 
-{{<lead>}}Studenten moeten ‘gewoon weer hun bek houden’, het college van bestuur krijgt een dienstauto met jacuzzi en docenten moeten doorwerken tot ze er letterlijk bij neervallen. Met zijn Partij tegen de Student vraagt Léon Melein aandacht voor de universitaire verkiezingen.{{</lead>}}
+Studenten moeten ‘gewoon weer hun bek houden’, het college van bestuur krijgt een dienstauto met jacuzzi en docenten moeten doorwerken tot ze er letterlijk bij neervallen. Met zijn Partij tegen de Student vraagt Léon Melein aandacht voor de universitaire verkiezingen.
 
 _Door Koen Marrée_
 

@@ -1,0 +1,11 @@
+{{ define "main" }}
+  <h1>Nieuws</h1>
+  {{ .Content }}
+  {{ range .Pages }}
+    <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+    <a href="{{ .RelPermalink }}">
+        <img src='{{ index .Params "featured_image" | relURL }}' alt="{{ .LinkTitle }}" />
+    </a>
+    {{ .Summary }}
+  {{ end }}
+{{ end }}

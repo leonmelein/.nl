@@ -1,14 +1,13 @@
 {{ define "main" }}
+  <h1>Projecten</h1>
   {{ .Content }}
-  <div class="news-grid">
-    {{ range (where .Site.RegularPages "Section" "blog") }}
-    <div class="news-item">
+  <div class="project-grid">
+    {{ range .Pages }}
+    <div class="project-item">
         <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
         <a href="{{ .RelPermalink }}">
             <img src='{{ index .Params "featured_image" | relURL }}' alt="{{ .LinkTitle }}" />
         </a>
-        {{ partial "categories.html" (dict "taxonomy" "categories" "page" .) }}
-
         {{ .Summary }}
     </div>
     {{ end }}
