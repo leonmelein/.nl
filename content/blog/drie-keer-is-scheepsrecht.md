@@ -3,7 +3,7 @@ title: "Drie Keer Is Scheepsrecht"
 date: 2017-03-01T12:00:00+01:00
 featured_image: img/overview-800x500.jpg
 cover_image: img/overview-800x500.jpg
-draft: false
+draft: true
 categories: 
     - Politiek
 tags:

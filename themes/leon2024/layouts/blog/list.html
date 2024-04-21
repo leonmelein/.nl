@@ -6,6 +6,6 @@
     <a href="{{ .RelPermalink }}">
         <img src='{{ index .Params "featured_image" | relURL }}' alt="{{ .LinkTitle }}" />
     </a>
-    {{ .Summary }}
+    <p>{{ .Summary }}</p>
   {{ end }}
 {{ end }}
