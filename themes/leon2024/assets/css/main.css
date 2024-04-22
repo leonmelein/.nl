@@ -2,7 +2,7 @@
   --brand-color: #0090E2;
   --text-color: #212427;
   --bg-color: #F4F4F4;
-  --menu-link-color: #004779;
+  --menu-link-color: #525353;
 }
 * {
   font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -68,6 +68,10 @@ main {
     padding-right: 1em;
     max-width: 768px;
     min-height: 70vh;
+
+    ul {
+        line-height: 1.5lh;
+    }
 }
 
 a {
@@ -79,12 +83,28 @@ img {
     max-width: 100%;
 }
 
+article > ul {
+    line-height: 1.5lh;
+}
+
 p {
     line-height: 1.5;
 }
 
 h1, h2, h3 {
     font-family: "Source Sans 3", Arial;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.2rem;
 }
 
 blockquote {
@@ -126,9 +146,6 @@ blockquote {
 
     .project-item {
         background-color: rgba(0,0,0,0.02);
-        padding-left: 1rem;
-        padding-right: 1rem;
-        padding-top: 0.5rem;
         padding-bottom: 0.5rem;
         border-radius: 1rem;
         box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.02);
@@ -138,6 +155,15 @@ blockquote {
             padding: 0.5rem;
             border-radius: 2rem;
             font-size: 0.9rem;
+        }
+
+        a > img {
+            border-radius: 0.5em 0.5em 0 0;
+        }
+
+        .project-card-content {
+            padding: 1em;
+            padding-top: 0.5em;
         }
     }
 }
@@ -150,15 +176,13 @@ blockquote {
     grid-row-gap: 1em;
 
     h2 {
-        min-height: 4.5rem;
-        margin-block-start: 0.7rem;
+        min-height: 3rem;
+        margin-block-start: 0.5rem;
+        line-height: 1.5lh;
     }
 
     .news-item {
         background-color: rgba(0,0,0,0.03);
-        padding-left: 1rem;
-        padding-right: 1rem;
-        padding-top: 0.5rem;
         padding-bottom: 0.5rem;
         border-radius: 1rem;
         box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.02);
@@ -168,6 +192,15 @@ blockquote {
             padding: 0.5rem;
             border-radius: 2rem;
             font-size: 0.9rem;
+        }
+
+        a > img {
+            border-radius: 0.5em 0.5em 0 0;
+        }
+
+        .news-card-content {
+            padding: 1em;
+            padding-top: 0.5em;
         }
     }
 }
@@ -188,6 +221,7 @@ footer {
 
     .copyright {
         margin-bottom: 0;
+        margin-top: 0.25em;
     }
 
     nav {
@@ -202,6 +236,10 @@ footer {
                 color: white;
             }
         }
+
+        :last-child {
+            padding-inline-end: 0rem;
+        }
     }   
-    }
+}
 

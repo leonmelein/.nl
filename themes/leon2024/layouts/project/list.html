@@ -4,11 +4,13 @@
   <div class="project-grid">
     {{ range .Pages }}
     <div class="project-item">
-        <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
         <a href="{{ .RelPermalink }}">
-            <img src='{{ index .Params "featured_image" | relURL }}' alt="{{ .LinkTitle }}" />
+            <img src='{{ index .Params "featured_image" | relURL }}' alt="{{ .LinkTitle }}" loading="lazy" />
         </a>
-        {{ .Summary }}
+        <div class="project-card-content">
+            <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+            <p>{{ .Summary }}</p>
+        </div>
     </div>
     {{ end }}
   </div>

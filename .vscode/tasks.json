@@ -7,6 +7,13 @@
             "command": "hugo serve --disableFastRender",
             "problemMatcher": [],
             "isBackground": true
+        },
+        {
+            "label": "Build",
+            "type": "shell",
+            "command": "hugo --minify",
+            "problemMatcher": [],
+            "isBackground": true
         }
     ]
 }
