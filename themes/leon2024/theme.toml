@@ -1,31 +1,17 @@
-name = 'Theme name'
+name = 'Léon (2024)'
 license = 'MIT'
-licenselink = 'https://github.com/owner/repo/LICENSE'
-description = 'Theme description'
+licenselink = 'https://github.com/leonmelein/.nl/LICENSE'
+description = 'My Personal Brand theme'
 
 # The home page of the theme, where the source can be found
-homepage = 'https://github.com/owner/repo'
+homepage = 'https://github.com/leonmelein/.nl'
 
-# If you have a running demo of the theme
-demosite = 'https://owner.github.io/repo'
 
 # Taxonomy terms
-tags = ['blog', 'company']
-features = ['some', 'awesome', 'features']
+tags = ['blog', 'personal', 'branding']
+features = ['blog', 'portfolio']
 
 # If the theme has multiple authors
 authors = [
-  {name = 'Name of author', homepage = 'Website of author'},
-  {name = 'Name of author', homepage = 'Website of author'}
+  {name = 'Léon Melein', homepage = 'https://www.leonmelein.nl'}
 ]
-
-# If the theme has a single author
-[author]
-  name = 'Your name'
-  homepage = 'Your website'
-
-# If porting an existing theme
-[original]
-  author = 'Name of original author'
-  homepage = 'Website of original author'
-  repo = 'https://github.com/owner/repo'
