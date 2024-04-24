@@ -252,3 +252,9 @@ footer {
     }   
 }
 
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    .news-grid, .project-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
