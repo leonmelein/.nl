@@ -5,15 +5,23 @@
             "label": "Dev Server",
             "type": "shell",
             "command": "hugo serve --disableFastRender",
-            "problemMatcher": [],
-            "isBackground": true
+            "isBackground": true,
+            "background": {
+                "activeOnStart": false,
+                "beginsPattern": "^.*building.*",
+                "endsPattern": "^.*Web Server is available.*"
+            }
         },
         {
             "label": "Build",
             "type": "shell",
             "command": "hugo --minify",
+            "isBackground": true,
             "problemMatcher": [],
-            "isBackground": true
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
         }
     ]
 }
