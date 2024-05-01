@@ -1,5 +1,5 @@
 ---
-title: "UKrant: Satirische partij hoopt op aandacht voor verkiezingen"
+title: "In de media: 'Satirische partij hoopt op aandacht voor verkiezingen'"
 date: 2020-05-12T13:04:00+02:00
 media: "UKrant"
 featured_image: img/ptds_800x500.jpg
@@ -7,6 +7,7 @@ cover_image: img/ptds_800x500.jpg
 draft: false
 categories: 
     - Media
+    - UKrant
 tags:
     - Partij tegen de Student
     - Medezeggenschap

@@ -1,5 +1,5 @@
 ---
-title: "UKrant: nieuwe studentenpartij wil Letteren vooruit helpen"
+title: "In de media: 'Nieuwe studentenpartij wil Letteren vooruit helpen'"
 date: 2015-05-13T12:00:00+02:00
 media: "UKrant"
 featured_image: img/lv-800x500.jpg
@@ -7,6 +7,7 @@ cover_image: img/lv.jpg
 draft: false
 categories: 
     - Media
+    - UKrant
 tags:
     - Letteren Vooruit
     - Medezeggenschap
