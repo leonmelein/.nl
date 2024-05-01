@@ -5,9 +5,7 @@
     {{ $dateHuman := .Date | time.Format ":date_long" }}
     <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
 
-    <a href="{{ .RelPermalink }}">
-        <img src='{{ index .Params "featured_image" | relURL }}' alt="{{ .LinkTitle }}" />
-    </a>
+    <img src='{{ index .Params "featured_image" | relURL }}' alt="{{ .LinkTitle }}" />
 
     {{ .Content }}
     {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
