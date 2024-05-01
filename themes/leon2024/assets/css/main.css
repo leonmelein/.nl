@@ -1,7 +1,7 @@
 :root {
   --brand-color: #0090E2;
   --text-color: #212427;
-  --bg-color: #F4F4F4;
+  --bg-color: #ffffff;
   --menu-link-color: #525353;
 }
 * {
@@ -98,6 +98,10 @@ main {
     main {
         padding-left: 2em;
         padding-right: 2em;
+    }
+
+    h1.site-title {
+        margin-left: 0.5em;
     }
 }
 
@@ -196,8 +200,8 @@ blockquote {
 
         li.category {
             background-color: rgba(0,0,0,0.1);
-            padding: 0.5rem;
-            border-radius: 2rem;
+            padding: 0.125rem 0.25rem 0.125rem 0.25rem;
+            border-radius: 0.5rem;
             font-size: 0.9rem;
         }
 
@@ -222,6 +226,7 @@ blockquote {
     h2 {
         min-height: 3rem;
         margin-block-start: 0.5rem;
+        margin-block-end: 0.3rem;
         line-height: 1.5lh;
     }
 
@@ -233,9 +238,10 @@ blockquote {
 
         li.category {
             background-color: rgba(0,0,0,0.1);
-            padding: 0.5rem;
-            border-radius: 2rem;
+            padding: 0.125rem 0.5rem 0.125rem 0.5rem;
+            border-radius: 0.5rem;
             font-size: 0.9rem;
+            line-height: 1lh;
         }
 
         a > img {

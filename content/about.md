@@ -6,6 +6,9 @@ draft: false
 
 ![Foto](/img/melein_2022.jpg "Foto")
 
+Ik ben Léon Melein, een software engineer met een passie voor creatieve oplossingen. 
+
+## Technisch onderlegd
 Ik heb een bachelor Informatiekunde gevolgd aan de Rijksuniversiteit Groningen en met een cum laude diploma afgerond. Daarna heb ik gewerkt voor de RDW als Data Engineer en Software Engineer. Tegenwoordig zit ik bij ilionx. Momenteel heb ik een opdracht bij PGGM, waar ik als DevOps Engineer onderdeel ben van het Data Science Support Team.
 
 ## Maatschappelijk betrokken
@@ -16,7 +19,7 @@ Ook na mijn betrokkenheid bij de universiteitspolitiek probeer ik student en med
 - [Yantai.nl](https://www.yantai.nl) - de kosten inzichtelijk maken van de uiteindelijk afgeketste campus van de RUG in China
 - [De Partij tegen de Student](https://www.partijtegendestudent.nl) - de neppartij die studenten aanspoorde tóch te gaan stemmen tijdens de universitaire verkiezingen in coronajaar 2020
 
-## Creatief ondernemen
+## Creatief ondernemend
 Bij [Studievereniging ASCI](https://www.ascigroningen.nl/commissies) heb ik meerdere commissies voorgezeten. In 2019 gaf ik leiding aan de mediacommissie, die het bestuur en de commissies voorziet van promotiemateriaal en de maandelijkse nieuwsbrief van de vereniging schrijft. Daarnaast onderneem ik ook nog losse klussen en hobbyprojecten naast mijn studie. Een kleine selectie van mijn werk vind je bij [projecten](/project/).
 
 <blockquote>Voor een volledig overzicht van mijn studies, ervaring en nevenactiviteiten, werp een blik op mijn <a href="https://www.linkedin.com/in/leonmelein">LinkedIn</a> pagina.</blockquote>
