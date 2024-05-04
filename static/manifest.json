@@ -1,8 +1,8 @@
 {
   "name": "Léon Melein",
   "short_name": "Léon",
-  "theme_color": "#0090E2",
-  "background_color": "#fafafa",
+  "theme_color": "#4A90E2",
+  "background_color": "#ffffff",
   "display": "browser",
   "Scope": "/",
   "start_url": "/",
