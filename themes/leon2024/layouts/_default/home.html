@@ -1,7 +1,7 @@
 {{ define "main" }}
   {{ .Content }}
   <div class="news-grid">
-    {{ range (where .Site.RegularPages "Section" "blog") }}
+    {{ range first 3 (where .Site.RegularPages "Section" "blog") }}
     <div class="news-item">
         <a href="{{ .RelPermalink }}">
             <img src='{{ index .Params "featured_image" | relURL }}' alt="{{ .LinkTitle }}" loading="lazy">
@@ -14,4 +14,5 @@
     </div>
     {{ end }}
   </div>
+  <p style="text-align: center;"><a href="/blog">Meer nieuws >></a></p>
 {{ end }}

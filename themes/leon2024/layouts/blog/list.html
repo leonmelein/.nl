@@ -1,11 +1,19 @@
 {{ define "main" }}
   <h1>Nieuws</h1>
   {{ .Content }}
+  
+  <div class="news-grid">
   {{ range .Pages }}
-    <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-    <a href="{{ .RelPermalink }}">
-        <img src='{{ index .Params "featured_image" | relURL }}' alt="{{ .LinkTitle }}" />
-    </a>
-    <p>{{ .Summary }}</p>
+    <div class="news-item">
+        <a href="{{ .RelPermalink }}">
+            <img src='{{ index .Params "featured_image" | relURL }}' alt="{{ .LinkTitle }}" loading="lazy">
+        </a>
+        <div class="news-card-content">
+            <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+            {{ partial "categories.html" (dict "taxonomy" "categories" "page" .) }}
+            <p>{{ .Summary }}</p>
+        </div>
+    </div>
   {{ end }}
+  </div>
 {{ end }}

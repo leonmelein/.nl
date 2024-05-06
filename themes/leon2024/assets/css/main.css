@@ -13,6 +13,10 @@
 
 p {
     font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    
+    img {
+        border-radius: 0.5em;
+    }
 }
 
 body {
@@ -218,10 +222,11 @@ blockquote {
 
 .project-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     grid-column-gap: 1em;
     grid-row-gap: 1em;
+    margin-top: 1rem;
     margin-bottom: 1rem;
 
     h2 {
@@ -259,6 +264,8 @@ blockquote {
     grid-template-rows: repeat(1, 1fr);
     grid-column-gap: 1em;
     grid-row-gap: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
 
     h2 {
         min-height: 3rem;
