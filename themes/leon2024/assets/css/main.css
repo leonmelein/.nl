@@ -2,6 +2,7 @@
   --brand-color: #0090E2;
   --text-color: #212427;
   --bg-color: #ffffff;
+  --surface-bg-color: rgba(0,0,0,0.03);
   --menu-link-color: #525353;
 }
 * {
@@ -28,7 +29,7 @@ header {
     padding-right: 1em;
 
     .navbar-content{
-        max-width: 768px;
+        max-width: 1024px;
         margin: auto;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -56,9 +57,19 @@ header {
     text-align: right;
     font-size: 1.2em;
 
+    ul {
+        padding-inline-start: 0;
+        
+        :last-child {
+        padding-inline-end: 0rem;
+        }
+    }
+
+
     li {
         display: inline-block;
         padding-inline-end: 1rem;
+
         a {
             font-family: "Source Sans 3", Arial;
             color: var(--menu-link-color);
@@ -93,7 +104,7 @@ main {
     margin: auto;
     padding-left: 1em;
     padding-right: 1em;
-    max-width: 768px;
+    max-width: 1024px;
     min-height: 70vh;
 
     ul {
@@ -244,7 +255,7 @@ blockquote {
 
 .news-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(1, 1fr);
     grid-column-gap: 1em;
     grid-row-gap: 1em;
@@ -257,7 +268,7 @@ blockquote {
     }
 
     .news-item {
-        background-color: rgba(0,0,0,0.03);
+        background-color: var(--surface-bg-color);
         padding-bottom: 0.5rem;
         border-radius: 1rem;
         box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.02);
@@ -288,16 +299,15 @@ blockquote {
 
 footer {
     margin: auto;
-    margin-top: 2rem;
+    margin-top: 1rem;
     padding-top: 1rem;
     padding-left: 1em;
     padding-right: 1em;
-    background-color: white;
+    background-color: var(--brand-color);
+    color: white;
 
-    .quote {
-        margin-bottom: 0;
-        font-style: italic;
-        font-weight: 300;
+    .brand-name {
+        color: white;
     }
 
     .copyright {
@@ -310,6 +320,10 @@ footer {
 
         ul {
             padding-inline-start: 0;
+            
+            :last-child {
+            padding-inline-end: 0rem;
+            }
         }
         
         li {
@@ -318,13 +332,12 @@ footer {
             font-size: 0.9rem;
             color: var(--menu-link-color);
             a {
-                color: rgba(0, 0, 0, 0.5);
+                color: white;
+                /* color: rgba(0, 0, 0, 0.5); */
             }
         }
 
-        :last-child {
-            padding-inline-end: 0rem;
-        }
+        
     }   
 }
 
@@ -333,20 +346,4 @@ footer {
     .news-grid, .project-grid {
         grid-template-columns: repeat(1, 1fr);
     }
-}
-
-p.quote  {
-  display: inline-block;
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid black; /* The typwriter cursor */
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  animation: 
-    blink-caret .75s step-end 40;
-}
-
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: black; }
 }
