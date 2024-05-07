@@ -110,7 +110,7 @@ main {
     padding-left: 1em;
     padding-right: 1em;
     max-width: 1024px;
-    min-height: 78vh;
+    min-height: 80vh;
 
     ul {
         line-height: 1.5lh;
@@ -316,6 +316,8 @@ footer {
 
     .brand-name {
         color: white;
+        margin: 0;
+        font-size: 1.3rem;
     }
 
     .copyright {
