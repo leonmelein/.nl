@@ -1,0 +1,18 @@
+{
+  "name": "Léon Melein",
+  "short_name": "Léon",
+  "id": "leonmeleinnl",
+  "theme_color": "#4A90E2",
+  "background_color": "#ffffff",
+  "display": "browser",
+  "Scope": "/",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "icons/512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "splash_pages": null
+}
