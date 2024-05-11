@@ -1,7 +1,7 @@
 ---
 title: "Korting met OVpay: hier kan het al!"
 date: 2024-05-07T12:26:57+02:00
-draft: false
+draft: true
 
 cover_image: img/ovpay.png
 featured_image: img/ovpay.png
