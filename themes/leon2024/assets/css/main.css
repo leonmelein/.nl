@@ -4,6 +4,7 @@
   --bg-color: #ffffff;
   --surface-bg-color: rgba(0,0,0,0.03);
   --menu-link-color: #525353;
+  --menu-active-color: #212427;
 }
 * {
   font-family: "Source Sans 3", sans-serif;
@@ -77,6 +78,11 @@ header {
         a {
             font-family: "Source Sans 3", Arial;
             color: var(--menu-link-color);
+        }
+
+        a.active {
+            font-weight: 500;    
+            color: var(--menu-active-color);
         }
     }
   }

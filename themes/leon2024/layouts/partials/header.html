@@ -1,5 +1,6 @@
 <div class="navbar-content">
-    <a href="/" style="height: 2.5lh;"><svg style="height: 1lh" class="site-title" viewBox="0 0 524 203" version="1.1" xmlns="http://www.w3.org/2000/svg"
+    <a href="/" style="height: 2.5lh;" title="Léon">
+        <svg style="height: 1lh" class="site-title" viewBox="0 0 524 203" version="1.1" xmlns="http://www.w3.org/2000/svg"
         xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/"
         style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
         <rect id="Wordmark-site" serif:id="Wordmark site" x="-52.228" y="-20.299" width="810.224" height="245.76"
@@ -33,13 +34,8 @@
                     style="fill:rgb(54 101 172);fill-rule:nonzero;" />
             </g>
         </g>
-    </svg></a>
+        </svg>
+    </a>
 
-
-    {{/*  <img src="/logo.svg" style="height: 1lh" class="site-title" />  */}}
-    {{/*  <h1 class="site-title">
-        <a href="/">> {{ site.Title }}</a>
-    </h1>  */}}
     {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
-
 </div>
