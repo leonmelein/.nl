@@ -2,7 +2,10 @@
 <meta name="viewport" content="width=device-width">
 <meta name="description" content="">
 <meta name="author" content="Léon Melein">
-<link rel="icon" href="/favicon.ico"/>
+
+<link rel="manifest" href="/app.webmanifest">
+<link rel="apple-touch-icon" href="/icons/512.png">
+<link rel="icon" type="image/png" href="/icons/32.png"/>
 <meta name="theme-color" content="#4A90E2">
 <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>
 {{ partialCached "head/css.html" . }}
@@ -12,5 +15,3 @@
 <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
 {{ template "_internal/opengraph.html" . }}
 {{ template "_internal/twitter_cards.html" . }}
-<link rel="apple-touch-icon" href="/icons/512.png">
-<link rel="manifest" href="/app.webmanifest">
