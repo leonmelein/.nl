@@ -7,7 +7,6 @@ cover_image: img/ptds_800x500.jpg
 draft: false
 categories: 
     - Media
-    - UKrant
 tags:
     - Partij tegen de Student
     - Medezeggenschap

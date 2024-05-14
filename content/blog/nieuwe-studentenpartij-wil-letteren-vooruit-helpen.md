@@ -7,7 +7,6 @@ cover_image: img/lv.jpg
 draft: false
 categories: 
     - Media
-    - UKrant
 tags:
     - Letteren Vooruit
     - Medezeggenschap

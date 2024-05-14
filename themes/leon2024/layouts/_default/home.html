@@ -7,8 +7,8 @@
             <img src='{{ index .Params "featured_image" | relURL }}' alt="{{ .LinkTitle }}" loading="lazy">
         </a>
         <div class="news-card-content">
-            <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
             {{ partial "categories.html" (dict "taxonomy" "categories" "page" .) }}
+            <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
             <p>{{ .Summary }}</p>
         </div>
     </div>
