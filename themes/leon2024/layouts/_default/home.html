@@ -1,12 +1,12 @@
 {{ define "main" }}
   {{ .Content }}
-  <div class="news-grid">
+  <div class="container grid">
     {{ range first 3 (where .Site.RegularPages "Section" "blog") }}
-    <div class="news-item">
+    <div class="item">
         <a href="{{ .RelPermalink }}">
             <img src='{{ index .Params "featured_image" | relURL }}' alt="{{ .LinkTitle }}" loading="lazy">
         </a>
-        <div class="news-card-content">
+        <div class="card-content">
             {{ partial "categories.html" (dict "taxonomy" "categories" "page" .) }}
             <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
             <p>{{ .Summary }}</p>
@@ -16,9 +16,4 @@
   </div>
   <p style="text-align: center;"><a href="/blog">Meer nieuws >></a></p>
 
-  {{/*  <div class="about-teaser" style="width: 100%; border-radius: 1rem; background-color: var(--surface-bg-color); padding: 4rem;">
-    <h2>Hi, ik ben Léon!</h2>
-    <p>Ik ben een IT wizzkid met een voorliefde voor politiek en media. Ik hou van het maken van websites, apps en software. Ik ben bezig met het ontwikkelen van mijn eigen producten en wil graag anderen helpen om hun ideeën te realiseren.</p>
-    <p>Ik ben een enthousiast voor de politiek en hou ervan om mee te doen. Ik denk dat het belangrijk is om politieke beslissingen te nemen die voor de samenleving voordelen hebben.</p>
-  </div>  */}}
 {{ end }}

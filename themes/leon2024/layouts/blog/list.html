@@ -1,14 +1,15 @@
 {{ define "main" }}
+<div class="container">
   <h1>Nieuws</h1>
   {{ .Content }}
   
-  <div class="news-grid">
+  <div class="grid">
   {{ range .Pages }}
-    <div class="news-item">
+    <div class="item">
         <a href="{{ .RelPermalink }}">
             <img src='{{ index .Params "featured_image" | relURL }}' alt="{{ .LinkTitle }}" loading="lazy">
         </a>
-        <div class="news-card-content">
+        <div class="card-content">
             {{ partial "categories.html" (dict "taxonomy" "categories" "page" .) }}
             <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
             <p>{{ .Summary }}</p>
@@ -16,4 +17,5 @@
     </div>
   {{ end }}
   </div>
+</div>
 {{ end }}
