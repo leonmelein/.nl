@@ -7,7 +7,7 @@
 <link rel="apple-touch-icon" href="/icons/512.png">
 <link rel="icon" type="image/png" href="/icons/32.png"/>
 <meta name="theme-color" content="#0090E2">
-<title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>
+<title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s › %s" .Title site.Title }}{{ end }}</title>
 {{ partialCached "head/css.html" . }}
 {{/*  {{ partialCached "head/js.html" . }}  */}}
 <link rel="preconnect" href="https://fonts.googleapis.com">
