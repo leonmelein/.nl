@@ -1,23 +1,40 @@
 name: Deploy Site
 on:
-  # Runs on pushes targeting the default branch
   push:
-    branches: ['master']
-
-  # Allows you to run this workflow manually from the Actions tab
+    branches: ['development']
   workflow_dispatch:
 
 jobs:
   deploy:
-    environment:
-      name: Staging
-    runs-on: Staging
+    environment: Staging
+    runs-on: ubuntu-latest
     steps:
         - name: Checkout
           uses: actions/checkout@v4
-        - name: Build site
+
+        - name: Setup Hugo
+          uses: peaceiris/actions-hugo@v3
+          with:
+            hugo-version: '0.140.0'
+
+        - name: Build
           run: hugo --minify
-        - name: Copy site contents
-          run: cp -r /home/github-actions/actions-runner-leonmelein/_work/.nl/.nl/public/. /www/leonmelein
-        - name: Reload Nginx
-          run: sudo /usr/sbin/service nginx reload
+        
+        - name: Load deploy key
+          uses: webfactory/ssh-agent@v0.9.0
+          with:
+            ssh-private-key: ${{ secrets.SSH_KEY }}
+
+        - name: Set server key
+          env:
+            SERVER_KEYS: ${{ vars.SERVER_PUBLIC_KEYS }}
+          run: |
+            mkdir -p ~/.ssh/ && touch ~/.ssh/known_hosts
+            echo $SERVER_KEYS >> ~/.ssh/known_hosts
+
+        - name: Run playbook
+          env:
+            HOST: 'beta.thesociallions.nl'
+          run: |
+            cd $GITHUB_WORKSPACE
+            ansible-playbook -i $HOST, .playbook/playbook.yml -u github-actions --extra-vars "repositoryPath=public/"
